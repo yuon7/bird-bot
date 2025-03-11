@@ -1,5 +1,6 @@
 import { createBot, Intents, startBot } from "./deps.ts";
 import { Secret } from "./secret.ts";
+import { setupReadChannelCommand } from "./feature/readChannels.ts";
 
 const bot = createBot({
   token: Secret.DISCORD_TOKEN,
@@ -11,12 +12,8 @@ const bot = createBot({
   },
 });
 
-bot.events.messageCreate = (b, message) => {
-  if (message.content === "!neko") {
-    b.helpers.sendMessage(message.channelId, {
-      content: "にゃーん",
-    });
-  }
-};
+// featureの機能をまとめてセットアップ
+await setupReadChannelCommand(bot);
 
+// Bot起動
 await startBot(bot);
