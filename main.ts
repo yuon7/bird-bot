@@ -1,6 +1,8 @@
 import { createBot, Intents, startBot } from "./deps.ts";
-import { Secret } from "./secret.ts";
-import { setupReadChannelCommand } from "./feature/readChannels.ts";
+import { setupRoomIdMonitor } from "./feature/roomIdMonitoring.ts";
+import { Secret } from "./secret.ts"; // 必要に応じて;
+
+// まとめたワークフローを読み込む
 
 const bot = createBot({
   token: Secret.DISCORD_TOKEN,
@@ -12,8 +14,8 @@ const bot = createBot({
   },
 });
 
-// featureの機能をまとめてセットアップ
-await setupReadChannelCommand(bot);
+// 機能のセットアップ
+await setupRoomIdMonitor(bot);
 
-// Bot起動
+// Bot 起動
 await startBot(bot);
