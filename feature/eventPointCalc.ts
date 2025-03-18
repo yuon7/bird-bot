@@ -1,181 +1,166 @@
 import {
   Bot,
-  ButtonComponent,
-  ButtonStyles,
-  MessageComponentTypes,
-  ActionRow,
   CreateSlashApplicationCommand,
   Interaction,
   InteractionResponseTypes,
+  MessageComponentTypes,
+  ButtonStyles,
+  ActionRow,
+  ButtonComponent,
 } from "../deps.ts";
 
-/**
- * ページネーション用のメッセージIDとデータのマップ
- */
-interface CalcPaginationData {
-  pages: string[];
-  currentPage: number;
-}
-
-// const paginationMap = new Map<bigint, CalcPaginationData>();
-
-/** 炊き数 → 倍率のテーブル (炊き数 0 ~ 3 のみ) */
+/** ライブボーナス倍率テーブル（0～3炊きのみ）*/
 const liveBonusTable = [
   { consume: 0, multiplier: 1 },
   { consume: 1, multiplier: 5 },
   { consume: 2, multiplier: 10 },
   { consume: 3, multiplier: 15 },
 ];
-/** スコアの制限範囲 */
-const SCORE_MIN = 0;
+
+/** スコアの最大値を 3,000,000 とする */
 const SCORE_MAX = 3_000_000;
 
-/**
- * /calc コマンドを設定
- */
 export function setupCalcCommand(bot: Bot): CreateSlashApplicationCommand {
   const command: CreateSlashApplicationCommand = {
     name: "calc",
-    description: "指定したイベントポイントを稼ぐためのスコア範囲を計算します",
+    description: "指定したイベントポイントをピッタリ稼ぐスコア帯を列挙します",
     options: [
       {
         name: "required_points",
-        description: "目標のイベントポイント数 (例: 600)",
-        type: 4, // INTEGER
+        description: "イベントポイント (例: 30000)",
+        type: 4,
         required: true,
       },
     ],
   };
 
+  // InteractionCreate イベント(単一)で Slashコマンドとボタンを両方処理してもOKだが
+  // ここではSlashコマンドの処理だけ書きます
   bot.events.interactionCreate = async (b, interaction: Interaction) => {
-    if (!interaction.data || interaction.data.name !== "calc") return;
+    if (interaction.data?.name === "calc") {
+      const requiredPointsOpt = interaction.data.options?.find(
+        (o) => o.name === "required_points"
+      );
+      if (!requiredPointsOpt) {
+        return sendReply(b, interaction, "必要ポイントを指定してください。");
+      }
 
-    const requiredPointsOpt = interaction.data.options?.find(
-      (o) => o.name === "required_points"
-    );
-    if (!requiredPointsOpt) {
-      return sendInteractionResponse(b, interaction, {
-        content: "必要ポイントが指定されていません。",
+      const requiredPoints = Number(requiredPointsOpt.value);
+      if (isNaN(requiredPoints) || requiredPoints < 0) {
+        return sendReply(b, interaction, "正の整数を指定してください。");
+      }
+
+      const lines = calculateScoreRanges(requiredPoints);
+
+      if (!lines.length) {
+        return sendReply(b, interaction, "条件に合う結果がありませんでした。");
+      }
+
+      const pages = chunk(lines, 8).map((chunked, index) => {
+        const pageNumber = index + 1;
+        const totalPages = Math.ceil(lines.length / 8);
+        return [
+          `**必要PT**: ${requiredPoints} | Page ${pageNumber}/${totalPages}`,
+          "```",
+          "イベントボーナス% | 炊き数 | スコア下限  | スコア上限",
+          ...chunked,
+          "```",
+        ].join("\n");
       });
+
+      await b.helpers.sendInteractionResponse(
+        interaction.id,
+        interaction.token,
+        {
+          type: InteractionResponseTypes.ChannelMessageWithSource,
+          data: {
+            content: pages[0],
+            components: makePaginationComponents(0, pages.length),
+          },
+        }
+      );
+
+      // ★ 注意 ★
+      // ここでは「ボタンの押下でページ切り替え」まで含めていません。
+      // ボタンを動かすには messageId を取得して paginationMap に保存 → button で更新
+      // のフローが必要です。
+      // とりあえず「同じ下限/上限が大量に出る問題のない正しい計算ロジック」を示します。
     }
-    const requiredPoints = Number(requiredPointsOpt.value) || 0;
-
-    // 計算を実行
-    const results: string[] = calculateScoreRanges(requiredPoints);
-
-    // 1ページ8行ずつに分割
-    const pages = chunkLines(results, 8).map((lines, idx) => {
-      return [
-        `**必要PT**: ${requiredPoints} | Page ${idx + 1}/${Math.ceil(
-          results.length / 8
-        )}`,
-        "```",
-        "イベントボーナス | 炊き数 | スコア下限 | スコア上限",
-        ...lines,
-        "```",
-      ].join("\n");
-    });
-
-    if (pages.length === 0) {
-      return sendInteractionResponse(b, interaction, {
-        content: "条件に合う結果がありませんでした。",
-      });
-    }
-
-    await b.helpers.sendInteractionResponse(interaction.id, interaction.token, {
-      type: InteractionResponseTypes.ChannelMessageWithSource,
-      data: {
-        content: pages[0],
-        components: makePaginationComponents(0, pages.length),
-      },
-    });
   };
 
   return command;
 }
 
 /**
- * 必要ポイントに基づいてスコア範囲を計算
+ * 指定したイベントポイントを「ピッタリ」達成する(イベントボーナス, 炊き数, スコア下限/上限) を列挙
  */
 function calculateScoreRanges(requiredPoints: number): string[] {
-  const results: {
-    consume: number;
-    eventBonus: number;
-    minScore: number;
-    maxScore: number;
-  }[] = [];
+  // 格納用(重複排除のためSetを使う)
+  const results = new Set<string>();
 
-  // イベントボーナス倍率リスト（整数のみ、0% ~ 435%）
-  const eventBonusMultipliers = Array.from(
-    { length: 436 },
-    (_, i) => (100 + i) / 100
-  );
+  for (let evPercent = 0; evPercent <= 435; evPercent++) {
+    const evRate = floorToTwoDecimals(1 + evPercent / 100);
 
-  for (const { consume, multiplier } of liveBonusTable) {
-    for (const eventBonus of eventBonusMultipliers) {
-      // **正しくスコアボーナスを算出**
-      const score = requiredPoints / (eventBonus * multiplier) - 100;
-      const scoreBonus = Math.floor(score); // スコアボーナスを整数化
+    for (const { consume, multiplier } of liveBonusTable) {
+      for (let sb = 0; sb <= 150; sb++) {
+        const ep = Math.floor((100 + sb) * evRate * multiplier);
 
-      // **スコア範囲の計算**
-      const minScore = scoreBonus * 20000;
-      const maxScore = minScore + 19999;
+        if (ep === requiredPoints) {
+          const minScore = sb * 20000;
+          const maxScore = sb * 20000 + 19999;
+          if (maxScore > SCORE_MAX) continue;
 
-      // スコアが制限範囲内であることを確認
-      if (minScore < SCORE_MIN || maxScore > SCORE_MAX) continue;
-
-      results.push({ consume, eventBonus, minScore, maxScore });
-
-      // **デバッグ出力**
-      console.log(
-        `イベP=${requiredPoints}, イベントボーナス=${(
-          eventBonus * 100 -
-          100
-        ).toFixed(0)}%, ` +
-          `炊き数=${consume}, スコアボーナス=${scoreBonus}, ` +
-          `minScore=${minScore}, maxScore=${maxScore}`
-      );
+          const line = `${evPercent}% | ${consume} | ${minScore.toLocaleString()} | ${maxScore.toLocaleString()}`;
+          results.add(line);
+        }
+      }
     }
   }
 
-  // 🔹 **炊き数単位でグルーピング → イベントボーナス昇順**
-  results.sort((a, b) => {
-    if (a.consume !== b.consume) return a.consume - b.consume; // 炊き数昇順
-    return a.eventBonus - b.eventBonus; // イベントボーナス昇順
+  // 結果を炊き数・イベントボーナス% 順にソートしたい
+  // 上でSetにしてしまったため、一旦配列化 → ソート
+  const sorted = Array.from(results);
+  sorted.sort((a, b) => {
+    const [evA, cA] = extractEVandConsume(a);
+    const [evB, cB] = extractEVandConsume(b);
+    if (cA !== cB) return cA - cB;
+    return evA - evB;
   });
 
-  // 文字列としてフォーマット（グルーピングのため改行を挟む）
-  let output: string[] = [];
-  let currentConsume = -1;
-
-  for (const { consume, eventBonus, minScore, maxScore } of results) {
-    if (consume !== currentConsume) {
-      if (currentConsume !== -1) output.push("---"); // グルーピング用の区切り
-      currentConsume = consume;
-    }
-    output.push(
-      `${(eventBonus * 100 - 100).toFixed(
-        0
-      )}%  | ${consume} | ${minScore.toLocaleString()} | ${maxScore.toLocaleString()}`
-    );
-  }
-
-  return output;
+  return sorted;
 }
 
 /**
- * 行配列を指定した数ずつに分割する
+ * "123% | 2 | ..." という文字列から イベントボーナス% と 炊き数 を取り出して数値にする
  */
-function chunkLines(lines: string[], chunkSize: number): string[][] {
-  const chunked: string[][] = [];
-  for (let i = 0; i < lines.length; i += chunkSize) {
-    chunked.push(lines.slice(i, i + chunkSize));
-  }
-  return chunked;
+function extractEVandConsume(line: string): [number, number] {
+  // line 例: "120% | 2 | 400000 | 419999"
+  const parts = line.split("|").map((p) => p.trim());
+  const evPercentStr = parts[0].replace("%", "");
+  const consumeStr = parts[1];
+  const evNum = Number(evPercentStr);
+  const csNum = Number(consumeStr);
+  return [evNum, csNum];
+}
+
+function floorToTwoDecimals(value: number): number {
+  return Math.floor(value * 100) / 100;
 }
 
 /**
- * ページング用に "◀ 前へ" "次へ ▶" ボタン
+ * 指定した配列を chunkSize ごとに分割
+ */
+function chunk<T>(arr: T[], chunkSize: number): T[][] {
+  const result: T[][] = [];
+  for (let i = 0; i < arr.length; i += chunkSize) {
+    result.push(arr.slice(i, i + chunkSize));
+  }
+  return result;
+}
+
+/**
+ * ページ切り替え用のボタンを作成（必要であれば）
+ * ここでは簡易例。ページ切り替え本体は省略
  */
 function makePaginationComponents(
   currentPage: number,
@@ -184,36 +169,34 @@ function makePaginationComponents(
   const isFirstPage = currentPage <= 0;
   const isLastPage = currentPage >= totalPages - 1;
 
-  return [
-    {
-      type: MessageComponentTypes.ActionRow,
-      components: [
-        {
-          type: MessageComponentTypes.Button,
-          style: ButtonStyles.Primary,
-          label: "◀ 前へ",
-          customId: "calc:prev",
-          disabled: isFirstPage,
-        } as ButtonComponent,
-        {
-          type: MessageComponentTypes.Button,
-          style: ButtonStyles.Primary,
-          label: "次へ ▶",
-          customId: "calc:next",
-          disabled: isLastPage,
-        } as ButtonComponent,
-      ],
-    } as ActionRow,
-  ];
+  const row: ActionRow = {
+    type: MessageComponentTypes.ActionRow,
+    components: [
+      {
+        type: MessageComponentTypes.Button,
+        style: ButtonStyles.Primary,
+        label: "◀ 前へ",
+        customId: "calc:prev",
+        disabled: isFirstPage,
+      } as ButtonComponent,
+      {
+        type: MessageComponentTypes.Button,
+        style: ButtonStyles.Primary,
+        label: "次へ ▶",
+        customId: "calc:next",
+        disabled: isLastPage,
+      } as ButtonComponent,
+    ],
+  };
+  return [row];
 }
 
-async function sendInteractionResponse(
-  bot: Bot,
-  interaction: Interaction,
-  options: { content: string }
-) {
+/**
+ * 単純にメッセージを返信する (全員に見える)
+ */
+async function sendReply(bot: Bot, interaction: Interaction, content: string) {
   await bot.helpers.sendInteractionResponse(interaction.id, interaction.token, {
     type: InteractionResponseTypes.ChannelMessageWithSource,
-    data: { content: options.content },
+    data: { content },
   });
 }
