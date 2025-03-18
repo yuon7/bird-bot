@@ -1,5 +1,6 @@
 import { createBot, Intents, startBot } from "./deps.ts";
 import { setupRoomIdMonitor } from "./feature/roomIdMonitoring.ts";
+import { setupPurgeCommand } from "./feature/purge.ts";
 import { Secret } from "./secret.ts"; // 必要に応じて
 
 const bot = createBot({
@@ -12,8 +13,8 @@ const bot = createBot({
   },
 });
 
-// 機能のセットアップ → コマンド定義を受け取る
 const roomIdCommand = setupRoomIdMonitor(bot);
+const purgeCommand = setupPurgeCommand(bot);
 
 /**
  * 新規サーバー（ギルド）に参加したタイミングで Slash コマンドを登録する
@@ -24,8 +25,8 @@ bot.events.guildCreate = async (b, guild) => {
 
   // 新規参加したギルドに対してコマンド登録
   await b.helpers.upsertGuildApplicationCommands(guildId, [roomIdCommand]);
-  console.log(`[guildCreate] Registered /roomid for guild: ${guildId}`);
+  await b.helpers.upsertGuildApplicationCommands(guildId, [purgeCommand]);
+  console.log(`[guildCreate] Registered commands in guild: ${guildId}`);
 };
 
-// Bot 起動
 await startBot(bot);
