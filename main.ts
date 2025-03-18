@@ -1,7 +1,7 @@
 import { createBot, Intents, startBot } from "./deps.ts";
 import { setupRoomIdMonitor } from "./feature/roomIdMonitoring.ts";
 import { setupPurgeCommand } from "./feature/purge.ts";
-import  { setupCalcCommand } from "./feature/eventPointCalc.ts";
+import { setupCalcCommand } from "./feature/eventPointCalc.ts";
 import { Secret } from "./secret.ts"; // 必要に応じて
 
 const bot = createBot({

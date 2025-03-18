@@ -26,13 +26,6 @@ const liveBonusTable = [
   { consume: 2, multiplier: 10 },
   { consume: 3, multiplier: 15 },
 ];
-
-/** イベントボーナス倍率リスト */
-const eventBonusMultipliers = [
-  1.73, 1.68, 1.67, 1.61, 1.6, 1.59, 1.5, 1.49, 0.11, 0.09, 0.08, 0.07, 0.06,
-  0.05, 0.04, 0.03,
-];
-
 /** スコアの制限範囲 */
 const SCORE_MIN = 0;
 const SCORE_MAX = 3_000_000;
@@ -112,45 +105,62 @@ function calculateScoreRanges(requiredPoints: number): string[] {
     maxScore: number;
   }[] = [];
 
-  for (const eventBonus of eventBonusMultipliers) {
-    for (const { consume, multiplier } of liveBonusTable) {
-      // 逆算してスコア範囲を求める
-      const baseScore = (requiredPoints / (eventBonus * multiplier)) * 20000;
+  // イベントボーナス倍率リスト（整数のみ、0% ~ 435%）
+  const eventBonusMultipliers = Array.from(
+    { length: 436 },
+    (_, i) => (100 + i) / 100
+  );
 
-      // スコアボーナス = floor(スコア / 20000)
-      const minScore = Math.ceil(baseScore);
-      const maxScore = Math.floor(baseScore) + 19999;
+  for (const { consume, multiplier } of liveBonusTable) {
+    for (const eventBonus of eventBonusMultipliers) {
+      // **正しくスコアボーナスを算出**
+      const score = requiredPoints / (eventBonus * multiplier) - 100;
+      const scoreBonus = Math.floor(score); // スコアボーナスを整数化
+
+      // **スコア範囲の計算**
+      const minScore = scoreBonus * 20000;
+      const maxScore = minScore + 19999;
 
       // スコアが制限範囲内であることを確認
-      if (minScore < SCORE_MIN || maxScore > SCORE_MAX) {
-        console.log(
-          `条件外: 炊き数=${consume}, イベントボーナス=${eventBonus}, min=${minScore}, max=${maxScore}`
-        );
-        continue;
-      }
+      if (minScore < SCORE_MIN || maxScore > SCORE_MAX) continue;
 
       results.push({ consume, eventBonus, minScore, maxScore });
+
+      // **デバッグ出力**
+      console.log(
+        `イベP=${requiredPoints}, イベントボーナス=${(
+          eventBonus * 100 -
+          100
+        ).toFixed(0)}%, ` +
+          `炊き数=${consume}, スコアボーナス=${scoreBonus}, ` +
+          `minScore=${minScore}, maxScore=${maxScore}`
+      );
     }
   }
 
-  // **イベントボーナス降順** → **炊き数昇順** にソート
+  // 🔹 **炊き数単位でグルーピング → イベントボーナス昇順**
   results.sort((a, b) => {
-    if (b.eventBonus !== a.eventBonus) return b.eventBonus - a.eventBonus; // イベントボーナス降順
-    return a.consume - b.consume; // 炊き数昇順
+    if (a.consume !== b.consume) return a.consume - b.consume; // 炊き数昇順
+    return a.eventBonus - b.eventBonus; // イベントボーナス昇順
   });
 
-  // デバッグ: 条件に合う結果があるか確認
-  if (results.length === 0) {
-    console.log("条件に合う組み合わせが見つかりませんでした。");
-  }
+  // 文字列としてフォーマット（グルーピングのため改行を挟む）
+  let output: string[] = [];
+  let currentConsume = -1;
 
-  // 文字列としてフォーマット
-  return results.map(
-    ({ consume, eventBonus, minScore, maxScore }) =>
+  for (const { consume, eventBonus, minScore, maxScore } of results) {
+    if (consume !== currentConsume) {
+      if (currentConsume !== -1) output.push("---"); // グルーピング用の区切り
+      currentConsume = consume;
+    }
+    output.push(
       `${(eventBonus * 100 - 100).toFixed(
         0
       )}%  | ${consume} | ${minScore.toLocaleString()} | ${maxScore.toLocaleString()}`
-  );
+    );
+  }
+
+  return output;
 }
 
 /**
@@ -165,7 +175,7 @@ function chunkLines(lines: string[], chunkSize: number): string[][] {
 }
 
 /**
- * ページング用に "◀ 前へ" "次へ ▶" ボタンを作成する
+ * ページング用に "◀ 前へ" "次へ ▶" ボタン
  */
 function makePaginationComponents(
   currentPage: number,
@@ -197,9 +207,6 @@ function makePaginationComponents(
   ];
 }
 
-/**
- * インタラクションに対してレスポンスを送信
- */
 async function sendInteractionResponse(
   bot: Bot,
   interaction: Interaction,
