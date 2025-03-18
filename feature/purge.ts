@@ -1,3 +1,4 @@
+// file: feature/purge.ts
 import type {
   Bot,
   CreateSlashApplicationCommand,
@@ -7,44 +8,29 @@ import { InteractionResponseTypes } from "../deps.ts";
 
 /**
  * /purge コマンドを登録し、指定した件数のメッセージを一括削除します。
- * 削除が完了したらエフェメラルメッセージ（実行者のみが見える）で報告します。
+ * ただし 14日以上前のメッセージは除外されます（Bulk Delete API制限）。
  */
-export function setupPurgeCommand(bot: Bot) {
-  // 1) Slashコマンドの定義
-  const purgeCommand: CreateSlashApplicationCommand = {
+export function setupPurgeCommand(bot: Bot): CreateSlashApplicationCommand {
+  // /purge コマンド定義
+  const command: CreateSlashApplicationCommand = {
     name: "purge",
     description: "指定した件数のメッセージを一括削除します (1~100)",
     options: [
       {
         name: "count",
         description: "削除したいメッセージ数",
-        type: 4, // 整数(Integer)のオプション
+        type: 4, // INTEGER
         required: true,
-        // min_value, max_valueがサポートされていれば設定すると安全
-        // min_value: 1,
-        // max_value: 100,
       },
     ],
   };
 
-  // 2) Bot起動時に登録（Guildコマンド想定: guildCreate等でも追加できる）
-  // 例：すでに他のイベントで upsertGuildApplicationCommands() しているなら適宜そちらへ組み込む
-  bot.events.ready = async (b) => {
-    console.log("Bot ready - Registering /purge command...");
-
-    // Botが参加しているギルド全てにアップサートしたい例
-    for (const guildId of b.activeGuildIds) {
-      await b.helpers.upsertGuildApplicationCommands(guildId, [purgeCommand]);
-      console.log(`/purge command registered for guild ${guildId}`);
-    }
-  };
-
-  // 3) interactionCreate でコマンドの実行処理
+  // Slashコマンドの挙動
   bot.events.interactionCreate = async (b, interaction: Interaction) => {
-    // データがない or コマンド名が"purge"でなければ無視
+    // データが無い or コマンド名が"purge"でなければ無視
     if (!interaction.data || interaction.data.name !== "purge") return;
 
-    // Slashコマンドは基本的にギルド内テキストチャンネルで使用する想定
+    // ギルド内テキストチャンネル以外での使用は不可と想定
     const channelId = interaction.channelId;
     if (!channelId) {
       return await sendEphemeralReply(
@@ -54,7 +40,7 @@ export function setupPurgeCommand(bot: Bot) {
       );
     }
 
-    // オプション(count)を取得
+    // 引数(count)を取得
     const countOption = interaction.data.options?.find(
       (o) => o.name === "count"
     );
@@ -66,32 +52,42 @@ export function setupPurgeCommand(bot: Bot) {
       );
     }
 
-    // countOption.value は string | number | boolean | ...の場合があるが、
-    // INTEGERオプションなのでnumberにキャストする
+    // countオプションはINTEGERなのでnumberにキャスト
     const requestedCount = Number(countOption.value) || 1;
-
-    // 1~100 にクランプ(範囲外なら丸める)
+    // ディスコードのBulk Delete上限に合わせ、1~100にクランプ
     const deleteCount = Math.max(1, Math.min(requestedCount, 100));
 
     try {
-      // メッセージ一覧を新しい順に deleteCount 件取得
-      // ※ Bulk Deleteの仕様により14日以上前のメッセージは削除不可
+      // 最新のメッセージから deleteCount 件取得
       const messages = await b.helpers.getMessages(channelId, {
         limit: deleteCount,
       });
 
-      // IDだけ抜き出し
-      const messageIds = messages.map((m) => m.id);
+      // 14日より古いメッセージは Bulk Delete 不可なので除外
+      const twoWeeksAgo = Date.now() - 14 * 24 * 60 * 60 * 1000;
+      const recentMessages = messages.filter((msg) => {
+        const createdAt = Number(BigInt(msg.id) >> 22n) + 1420070400000;
+        return createdAt >= twoWeeksAgo;
+      });
 
-      // Bulk Delete (同時に100件まで)
-      // 14日以上前のメッセージはエラーになる可能性
-      await b.helpers.deleteMessages(channelId, messageIds);
+      if (recentMessages.size === 0) {
+        return await sendEphemeralReply(
+          b,
+          interaction,
+          "14日以上前のメッセージは一括削除できません。"
+        );
+      }
 
-      // 削除完了をエフェメラルで報告
+      // 一括削除 (14日以内のものだけ)
+      await b.helpers.deleteMessages(
+        channelId,
+        recentMessages.map((m) => m.id)
+      );
+
       await sendEphemeralReply(
         b,
         interaction,
-        `${messageIds.length}件のメッセージを削除しました。`
+        `${recentMessages.size}件のメッセージを削除しました。`
       );
     } catch (err) {
       console.error("Failed to purge messages:", err);
@@ -102,7 +98,9 @@ export function setupPurgeCommand(bot: Bot) {
       );
     }
   };
-  return purgeCommand;
+
+  // コマンド定義を返す
+  return command;
 }
 
 /**
@@ -117,8 +115,7 @@ async function sendEphemeralReply(
     type: InteractionResponseTypes.ChannelMessageWithSource,
     data: {
       content,
-      // flags: 64 (EPHEMERAL)
-      // → エフェメラルメッセージは、このフラグを付けることで他の人には見えなくなる
+      // flags: 64 を付けると実行者のみに見えるエフェメラルメッセージになる
       flags: 64,
     },
   });
