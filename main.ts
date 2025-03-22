@@ -1,35 +1,91 @@
 import { createBot, Intents, startBot } from "./deps.ts";
-import { setupRoomIdMonitor } from "./feature/roomIdMonitoring.ts";
-import { setupPurgeCommand } from "./feature/purge.ts";
-import { setupCalcCommand } from "./feature/eventPointCalc.ts";
-import { Secret } from "./secret.ts"; // 必要に応じて
+import { Secret } from "./secret.ts";
+import {
+  getCalcCommand,
+  handleCalcInteraction,
+  handleCalcButton,
+  handleCalcMessage,
+} from "./feature/eventPointCalc.ts";
+import { getPurgeCommand, handlePurgeInteraction } from "./feature/purge.ts";
+import {
+  getRoomIdCommand,
+  handleRoomIdInteraction,
+  handleRoomIdMessage,
+} from "./feature/roomIdMonitoring.ts";
 
 const bot = createBot({
   token: Secret.DISCORD_TOKEN,
   intents: Intents.Guilds | Intents.GuildMessages | Intents.MessageContent,
   events: {
-    ready: (_bot, payload) => {
+    ready: (_b, payload) => {
       console.log(`${payload.user.username} is ready!`);
     },
   },
 });
 
-const roomIdCommand = setupRoomIdMonitor(bot);
-const purgeCommand = setupPurgeCommand(bot);
-const calcCommand = setupCalcCommand(bot);
+//コマンド取得
+const calcCommand = getCalcCommand();
+const purgeCommand = getPurgeCommand();
+const roomIdCommand = getRoomIdCommand();
 
-/**
- * 新規サーバー（ギルド）に参加したタイミングで Slash コマンドを登録する
- */
+//既存ギルドに対してコマンド登録
+bot.events.ready = async (b) => {
+  console.log(
+    "Bot is ready. Registering slash commands for existing guilds..."
+  );
+
+  for (const guildId of b.activeGuildIds) {
+    await b.helpers.upsertGuildApplicationCommands(guildId, [
+      calcCommand,
+      purgeCommand,
+      roomIdCommand,
+    ]);
+    console.log(`Registered commands in guild: ${guildId}`);
+  }
+};
+
+// --- 3. 新規参加したギルドでも同様に登録 (guildCreateイベント) ---
 bot.events.guildCreate = async (b, guild) => {
   const guildId = BigInt(guild.id);
   console.log(`[guildCreate] Joined new guild: ${guildId}`);
 
-  // 新規参加したギルドに対してコマンド登録
-  await b.helpers.upsertGuildApplicationCommands(guildId, [roomIdCommand]);
-  await b.helpers.upsertGuildApplicationCommands(guildId, [purgeCommand]);
-  await b.helpers.upsertGuildApplicationCommands(guildId, [calcCommand]);
-  console.log(`[guildCreate] Registered commands in guild: ${guildId}`);
+  await b.helpers.upsertGuildApplicationCommands(guildId, [
+    calcCommand,
+    purgeCommand,
+    roomIdCommand,
+  ]);
+  console.log(
+    `[guildCreate] Registered /calc, /purge, /roomid in guild: ${guildId}`
+  );
+};
+
+// 各コマンドの処理を登録
+bot.events.interactionCreate = async (b, interaction) => {
+  if (interaction.data?.name) {
+    switch (interaction.data.name) {
+      case "calc":
+        await handleCalcInteraction(b, interaction);
+        return;
+      case "purge":
+        await handlePurgeInteraction(b, interaction);
+        return;
+      case "roomid":
+        await handleRoomIdInteraction(b, interaction);
+        return;
+    }
+  }
+  if (interaction.data?.componentType === 2) {
+    if (interaction.data.customId?.startsWith("calc:")) {
+      await handleCalcButton(b, interaction);
+      return;
+    }
+  }
+};
+
+bot.events.messageCreate = async (b, msg) => {
+  await handleCalcMessage(b, msg);
+  await handleRoomIdMessage(b, msg);
+
 };
 
 await startBot(bot);
