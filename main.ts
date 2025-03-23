@@ -12,6 +12,10 @@ import {
   handleRoomIdInteraction,
   handleRoomIdMessage,
 } from "./feature/roomIdMonitoring.ts";
+import {
+  getCheckRoleCommand,
+  handleCheckRoleInteraction,
+} from "./feature/checkRole.ts";
 
 const bot = createBot({
   token: Secret.DISCORD_TOKEN,
@@ -27,6 +31,7 @@ const bot = createBot({
 const calcCommand = getCalcCommand();
 const purgeCommand = getPurgeCommand();
 const roomIdCommand = getRoomIdCommand();
+const checkRoleCommand = getCheckRoleCommand();
 
 //既存ギルドに対してコマンド登録
 bot.events.ready = async (b) => {
@@ -39,6 +44,7 @@ bot.events.ready = async (b) => {
       calcCommand,
       purgeCommand,
       roomIdCommand,
+      checkRoleCommand,
     ]);
     console.log(`Registered commands in guild: ${guildId}`);
   }
@@ -53,6 +59,7 @@ bot.events.guildCreate = async (b, guild) => {
     calcCommand,
     purgeCommand,
     roomIdCommand,
+    checkRoleCommand,
   ]);
   console.log(
     `[guildCreate] Registered /calc, /purge, /roomid in guild: ${guildId}`
@@ -71,6 +78,9 @@ bot.events.interactionCreate = async (b, interaction) => {
         return;
       case "roomid":
         await handleRoomIdInteraction(b, interaction);
+        return;
+      case "checkrole":
+        await handleCheckRoleInteraction(b, interaction);
         return;
     }
   }
