@@ -48,6 +48,13 @@ export async function handlePurgeInteraction(
       "削除件数が指定されていません。"
     );
   }
+  if (Number(countOption.value) < 1 || Number(countOption.value) > 100) {
+    return await sendEphemeralReply(
+      bot,
+      interaction,
+      "削除件数は1~100の間で指定してください。"
+    );
+  }
 
   // countを1~100にクランプ
   const requestedCount = Number(countOption.value) || 1;
