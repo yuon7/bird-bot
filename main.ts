@@ -6,7 +6,10 @@ import {
   handleCalcButton,
   handleCalcMessage,
 } from "./feature/eventPointCalc.ts";
-import { getPurgeCommand, handlePurgeInteraction } from "./feature/purge.ts";
+import {
+  getPurgeCommand,
+  handlePurgeInteraction,
+} from "./feature/purge.ts";
 import {
   getRoomIdCommand,
   handleRoomIdInteraction,
@@ -16,6 +19,11 @@ import {
   getCheckRoleCommand,
   handleCheckRoleInteraction,
 } from "./feature/checkRole.ts";
+import {
+  getTakiCommand,
+  handleTakiInteraction,
+  startTakiReminderLoop,
+} from "./feature/taki.ts";
 
 const bot = createBot({
   token: Secret.DISCORD_TOKEN,
@@ -27,17 +35,16 @@ const bot = createBot({
   },
 });
 
-//コマンド取得
 const calcCommand = getCalcCommand();
 const purgeCommand = getPurgeCommand();
 const roomIdCommand = getRoomIdCommand();
 const checkRoleCommand = getCheckRoleCommand();
+const takiCommand = getTakiCommand();
 
-//既存ギルドに対してコマンド登録
 bot.events.ready = async (b) => {
-  console.log(
-    "Bot is ready. Registering slash commands for existing guilds..."
-  );
+  console.log("Bot is ready. Registering slash commands for existing guilds...");
+
+  startTakiReminderLoop(bot);
 
   for (const guildId of b.activeGuildIds) {
     await b.helpers.upsertGuildApplicationCommands(guildId, [
@@ -45,12 +52,12 @@ bot.events.ready = async (b) => {
       purgeCommand,
       roomIdCommand,
       checkRoleCommand,
+      takiCommand,
     ]);
     console.log(`Registered commands in guild: ${guildId}`);
   }
 };
 
-// --- 3. 新規参加したギルドでも同様に登録 (guildCreateイベント) ---
 bot.events.guildCreate = async (b, guild) => {
   const guildId = BigInt(guild.id);
   console.log(`[guildCreate] Joined new guild: ${guildId}`);
@@ -60,13 +67,11 @@ bot.events.guildCreate = async (b, guild) => {
     purgeCommand,
     roomIdCommand,
     checkRoleCommand,
+    takiCommand,
   ]);
-  console.log(
-    `[guildCreate] Registered /calc, /purge, /roomid in guild: ${guildId}`
-  );
+  console.log(`[guildCreate] Registered /calc, /purge, /roomid, /checkrole, /taki in guild: ${guildId}`);
 };
 
-// 各コマンドの処理を登録
 bot.events.interactionCreate = async (b, interaction) => {
   if (interaction.data?.name) {
     switch (interaction.data.name) {
@@ -82,8 +87,12 @@ bot.events.interactionCreate = async (b, interaction) => {
       case "checkrole":
         await handleCheckRoleInteraction(b, interaction);
         return;
+      case "taki":
+        await handleTakiInteraction(b, interaction);
+        return;
     }
   }
+
   if (interaction.data?.componentType === 2) {
     if (interaction.data.customId?.startsWith("calc:")) {
       await handleCalcButton(b, interaction);
@@ -92,10 +101,10 @@ bot.events.interactionCreate = async (b, interaction) => {
   }
 };
 
+
 bot.events.messageCreate = async (b, msg) => {
   await handleCalcMessage(b, msg);
   await handleRoomIdMessage(b, msg);
-
 };
 
 await startBot(bot);

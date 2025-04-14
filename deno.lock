@@ -1,6 +1,12 @@
 {
   "version": "3",
   "remote": {
+    "https://cdn.skypack.dev/-/dayjs@v1.11.13-VE4qN76xFOf6Bduj9jfS/dist=es2019,mode=imports/optimized/dayjs.js": "596a73ea537b1d5350ff8ccdb35fdb86ed5b8c50112f8d2ceabeda4ab33f0458",
+    "https://cdn.skypack.dev/-/dayjs@v1.11.13-VE4qN76xFOf6Bduj9jfS/dist=es2019,mode=imports/unoptimized/plugin/timezone.js": "1c59deb23394141e102bc82230704e5ffeb004ea893f351996b2d77cc22c0f89",
+    "https://cdn.skypack.dev/-/dayjs@v1.11.13-VE4qN76xFOf6Bduj9jfS/dist=es2019,mode=imports/unoptimized/plugin/utc.js": "1885f944b6b0d7646f190b5526d0f09c0c1b8be61cf7fdf34b9403857e3da046",
+    "https://cdn.skypack.dev/dayjs": "d0f1a843dc957ca04a90599c778faea9479dd9dddab50d8cf371a5f61e36d7da",
+    "https://cdn.skypack.dev/dayjs/plugin/timezone": "511f319059560011b9d61daac8c4f3e682e3ed6be16a7c91797b717cc3be30a8",
+    "https://cdn.skypack.dev/dayjs/plugin/utc": "cc07c0d4226959d8f7afbb31fb3d16c648bc2c41098947946276e23c0731ed8a",
     "https://deno.land/std@0.167.0/dotenv/mod.ts": "9846f28b263c0c793345d74939f69bf34b46446aa2450e070c10a2140064165a",
     "https://deno.land/std@0.167.0/dotenv/util.ts": "6cc392f087577a26a27f0463f77cc0c31a390aa055917099935b36eb2454592d",
     "https://deno.land/x/discordeno@17.1.0/bot.ts": "2c25a025326b40af18ebc7e16497b49efe84fac5121ab706f9312670583c29c5",
