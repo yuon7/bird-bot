@@ -1,4 +1,4 @@
-import { createBot, Intents, startBot } from "./deps.ts";
+import { createBot, Intents, startBot, InteractionTypes } from "./deps.ts";
 import { Secret } from "./secret.ts";
 import {
   getCalcCommand,
@@ -6,10 +6,7 @@ import {
   handleCalcButton,
   handleCalcMessage,
 } from "./feature/eventPointCalc.ts";
-import {
-  getPurgeCommand,
-  handlePurgeInteraction,
-} from "./feature/purge.ts";
+import { getPurgeCommand, handlePurgeInteraction } from "./feature/purge.ts";
 import {
   getRoomIdCommand,
   handleRoomIdInteraction,
@@ -24,6 +21,11 @@ import {
   handleTakiInteraction,
   startTakiReminderLoop,
 } from "./feature/taki.ts";
+import {
+  getEfficiencyCommand,
+  handleEfficiencyInteraction,
+} from "./feature/efficiency.ts";
+
 
 const bot = createBot({
   token: Secret.DISCORD_TOKEN,
@@ -40,9 +42,12 @@ const purgeCommand = getPurgeCommand();
 const roomIdCommand = getRoomIdCommand();
 const checkRoleCommand = getCheckRoleCommand();
 const takiCommand = getTakiCommand();
+const efficiencyCommand = getEfficiencyCommand();
 
 bot.events.ready = async (b) => {
-  console.log("Bot is ready. Registering slash commands for existing guilds...");
+  console.log(
+    "Bot is ready. Registering slash commands for existing guilds..."
+  );
 
   startTakiReminderLoop(bot);
 
@@ -53,6 +58,7 @@ bot.events.ready = async (b) => {
       roomIdCommand,
       checkRoleCommand,
       takiCommand,
+      efficiencyCommand,
     ]);
     console.log(`Registered commands in guild: ${guildId}`);
   }
@@ -68,11 +74,23 @@ bot.events.guildCreate = async (b, guild) => {
     roomIdCommand,
     checkRoleCommand,
     takiCommand,
+    efficiencyCommand,
   ]);
-  console.log(`[guildCreate] Registered /calc, /purge, /roomid, /checkrole, /taki in guild: ${guildId}`);
+  console.log(
+    `[guildCreate] Registered /calc, /purge, /roomid, /checkrole, /taki, /efficiency in guild: ${guildId}`
+  );
 };
 
 bot.events.interactionCreate = async (b, interaction) => {
+  // Autocompleteリクエストの処理
+  if (interaction.type === InteractionTypes.ApplicationCommandAutocomplete) {
+    if (interaction.data?.name === "efficiency") {
+      await handleEfficiencyInteraction(b, interaction);
+    }
+    return;
+  }
+
+  // 通常のコマンド実行とコンポーネント操作
   if (interaction.data?.name) {
     switch (interaction.data.name) {
       case "calc":
@@ -90,6 +108,9 @@ bot.events.interactionCreate = async (b, interaction) => {
       case "taki":
         await handleTakiInteraction(b, interaction);
         return;
+      case "efficiency":
+        await handleEfficiencyInteraction(b, interaction);
+        return;
     }
   }
 
@@ -100,7 +121,6 @@ bot.events.interactionCreate = async (b, interaction) => {
     }
   }
 };
-
 
 bot.events.messageCreate = async (b, msg) => {
   await handleCalcMessage(b, msg);
