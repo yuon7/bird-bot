@@ -8,6 +8,9 @@ import dayjs from "https://cdn.skypack.dev/dayjs";
 import utc from "https://cdn.skypack.dev/dayjs/plugin/utc";
 import timezone from "https://cdn.skypack.dev/dayjs/plugin/timezone";
 
+// decode for UTF8
+export { decode as decodeUtf8 } from "https://deno.land/std@0.42.0/encoding/utf8.ts";
+
 dayjs.extend(utc);
 dayjs.extend(timezone);
 

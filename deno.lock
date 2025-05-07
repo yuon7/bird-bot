@@ -9,6 +9,7 @@
     "https://cdn.skypack.dev/dayjs/plugin/utc": "cc07c0d4226959d8f7afbb31fb3d16c648bc2c41098947946276e23c0731ed8a",
     "https://deno.land/std@0.167.0/dotenv/mod.ts": "9846f28b263c0c793345d74939f69bf34b46446aa2450e070c10a2140064165a",
     "https://deno.land/std@0.167.0/dotenv/util.ts": "6cc392f087577a26a27f0463f77cc0c31a390aa055917099935b36eb2454592d",
+    "https://deno.land/std@0.42.0/encoding/utf8.ts": "8654fa820aa69a37ec5eb11908e20b39d056c9bf1c23ab294303ff467f3d50a1",
     "https://deno.land/x/discordeno@17.1.0/bot.ts": "2c25a025326b40af18ebc7e16497b49efe84fac5121ab706f9312670583c29c5",
     "https://deno.land/x/discordeno@17.1.0/gateway/manager/calculateTotalShards.ts": "2d2ebe860861d58524416446426d78e5b881c17b3a565ea4822c67f5534214bc",
     "https://deno.land/x/discordeno@17.1.0/gateway/manager/calculateWorkerId.ts": "44c46f2977104a5f92cc21cf31d6b2bc5dcfcefba23495cd619dbdf074a00af1",
