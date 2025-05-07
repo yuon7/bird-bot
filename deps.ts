@@ -11,6 +11,8 @@ import timezone from "https://cdn.skypack.dev/dayjs/plugin/timezone";
 // decode for UTF8
 export { decode as decodeUtf8 } from "https://deno.land/std@0.42.0/encoding/utf8.ts";
 
+export { Application, Router } from "https://deno.land/x/oak@v12.6.1/mod.ts";
+
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
