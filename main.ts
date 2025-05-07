@@ -1,4 +1,11 @@
-import { createBot, Intents, startBot, InteractionTypes } from "./deps.ts";
+import {
+  Application,
+  Router,
+  createBot,
+  Intents,
+  startBot,
+  InteractionTypes,
+} from "./deps.ts";
 import { Secret } from "./secret.ts";
 import {
   getCalcCommand,
@@ -26,6 +33,22 @@ import {
   handleEfficiencyInteraction,
 } from "./feature/efficiency.ts";
 
+const startSelfPingLoop = () => {
+  const DEPLOY_URL = Secret.DEPLOY_URL;
+
+  console.log(`Starting self-ping loop for ${DEPLOY_URL}`);
+
+  // 5分ごとにセルフPing
+  setInterval(async () => {
+    try {
+      const response = await fetch(`${DEPLOY_URL}/health`);
+      const data = await response.json();
+      console.log(`Self-ping successful at ${data.timestamp}`);
+    } catch (error) {
+      console.error("Self-ping failed:", error);
+    }
+  }, 4 * 60 * 1000); // 4分ごと
+};
 
 const bot = createBot({
   token: Secret.DISCORD_TOKEN,
@@ -50,6 +73,7 @@ bot.events.ready = async (b) => {
   );
 
   startTakiReminderLoop(bot);
+  startSelfPingLoop();
 
   for (const guildId of b.activeGuildIds) {
     await b.helpers.upsertGuildApplicationCommands(guildId, [
@@ -127,4 +151,36 @@ bot.events.messageCreate = async (b, msg) => {
   await handleRoomIdMessage(b, msg);
 };
 
+const router = new Router();
+router.get("/", (ctx) => {
+  ctx.response.body = "Bot is running!";
+});
+
+router.get("/health", (ctx) => {
+  ctx.response.body = {
+    status: "ok",
+    timestamp: new Date().toISOString(),
+    uptime: performance.now(),
+  };
+});
+
+const app = new Application();
+app.use(router.routes());
+app.use(router.allowedMethods());
+
+// HTTP サーバーを AbortController で制御
+const PORT = Secret.PORT || 8000;
+const controller = new AbortController();
+
+app
+  .listen({ port: PORT, signal: controller.signal })
+  .catch((e) => console.error("HTTP server closed:", e));
+
+console.log(`HTTP server running on port ${PORT}`);
+
 await startBot(bot);
+
+Deno.addSignalListener("SIGINT", () => {
+  controller.abort();
+  Deno.exit(0);
+});
