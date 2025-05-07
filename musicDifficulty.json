@@ -1,0 +1,5504 @@
+[
+  {
+    "id": 1,
+    "title": "Tell Your World",
+    "pronunciation": "てるゆあわーるど",
+    "assetbundleName": "jacket_s_001",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞＞🔴＞🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 2,
+    "title": "ロキ",
+    "pronunciation": "ろき",
+    "assetbundleName": "jacket_s_002",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞APD＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 3,
+    "title": "テオ",
+    "pronunciation": "てお",
+    "assetbundleName": "jacket_s_003",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 6,
+    "title": "ヒバナ -Reloaded-",
+    "pronunciation": "ひばなりろーでっど",
+    "assetbundleName": "jacket_s_006",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": []
+  },
+  {
+    "id": 8,
+    "title": "タイムマシン",
+    "pronunciation": "たいむましん",
+    "assetbundleName": "jacket_s_008",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔵＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 10,
+    "title": "ハッピーシンセサイザ",
+    "pronunciation": "はっぴーしんせさいざ",
+    "assetbundleName": "jacket_s_010",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟢"],
+    "priority": ["APD＞🟣≒🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 11,
+    "title": "ビバハピ",
+    "pronunciation": "びばはぴ",
+    "assetbundleName": "jacket_s_011",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 13,
+    "title": "Nostalogic",
+    "pronunciation": "のすたろじっく",
+    "assetbundleName": "jacket_s_013",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 15,
+    "title": "drop pop candy",
+    "pronunciation": "どろっぷぽっぷきゃんでぃ",
+    "assetbundleName": "jacket_s_015",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 18,
+    "title": "アスノヨゾラ哨戒班",
+    "pronunciation": "あすのよぞらしょうかいはん",
+    "assetbundleName": "jacket_s_018",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": ["🟡"]
+  },
+  {
+    "id": 19,
+    "title": "シャルル",
+    "pronunciation": "しゃるる",
+    "assetbundleName": "jacket_s_019",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["APD＞🟣＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 21,
+    "title": "脱法ロック",
+    "pronunciation": "だっぽうろっく",
+    "assetbundleName": "jacket_s_021",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 22,
+    "title": "命に嫌われている",
+    "pronunciation": "いのちにきらわれている",
+    "assetbundleName": "jacket_s_022",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 26,
+    "title": "劣等上等",
+    "pronunciation": "れっとうじょうとう",
+    "assetbundleName": "jacket_s_026",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 27,
+    "title": "Just Be Friends",
+    "pronunciation": "じゃすとびーふれんず",
+    "assetbundleName": "jacket_s_027",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 28,
+    "title": "ドクター＝ファンクビート",
+    "pronunciation": "どくたーふぁんくびーと",
+    "assetbundleName": "jacket_s_028",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 36,
+    "title": "ミラクルペイント",
+    "pronunciation": "みらくるぺいんと",
+    "assetbundleName": "jacket_s_036",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 38,
+    "title": "ブリキノダンス",
+    "pronunciation": "ぶりきのだんす",
+    "assetbundleName": "jacket_s_038",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 41,
+    "title": "スイートマジック",
+    "pronunciation": "すいーとまじっく",
+    "assetbundleName": "jacket_s_041",
+    "musicTag": ["all", "theme_park", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒APD＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 43,
+    "title": "ネクストネスト",
+    "pronunciation": "ねくすとねすと",
+    "assetbundleName": "jacket_s_043",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 44,
+    "title": "Hand in Hand",
+    "pronunciation": "はんどいんはんど",
+    "assetbundleName": "jacket_s_044",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["APD＞🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 45,
+    "title": "39みゅーじっく！",
+    "pronunciation": "さんきゅーみゅーじっく",
+    "assetbundleName": "jacket_s_045",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 46,
+    "title": "グリーンライツ・セレナーデ",
+    "pronunciation": "ぐりーんらいつせれなーで",
+    "assetbundleName": "jacket_s_046",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 47,
+    "title": "メルト",
+    "pronunciation": "めると",
+    "assetbundleName": "jacket_s_047",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 48,
+    "title": "ワールドイズマイン",
+    "pronunciation": "わーるどいずまいん",
+    "assetbundleName": "jacket_s_048",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 49,
+    "title": "初音ミクの消失",
+    "pronunciation": "はつねみくのしょうしつ",
+    "assetbundleName": "jacket_s_049",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 50,
+    "title": "Blessing",
+    "pronunciation": "ぶれっしんぐ",
+    "assetbundleName": "jacket_s_050",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 51,
+    "title": "セカイはまだ始まってすらいない",
+    "pronunciation": "せかいはまだはじまってすらいない",
+    "assetbundleName": "jacket_s_051",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 52,
+    "title": "potatoになっていく",
+    "pronunciation": "ぽてとになっていく",
+    "assetbundleName": "jacket_s_052",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 54,
+    "title": "Ready Steady",
+    "pronunciation": "れでぃすてでぃ",
+    "assetbundleName": "jacket_s_054",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 55,
+    "title": "Forward",
+    "pronunciation": "ふぉわーど",
+    "assetbundleName": "jacket_s_055",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 57,
+    "title": "アイドル新鋭隊",
+    "pronunciation": "あいどるしんえいたい",
+    "assetbundleName": "jacket_s_057",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🟢≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 60,
+    "title": "悔やむと書いてミライ",
+    "pronunciation": "くやむとかいてみらい",
+    "assetbundleName": "jacket_s_060",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 61,
+    "title": "携帯恋話",
+    "pronunciation": "けいたいれんわ",
+    "assetbundleName": "jacket_s_061",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 62,
+    "title": "ジャックポットサッドガール",
+    "pronunciation": "じゃっくぽっとさっどがーる",
+    "assetbundleName": "jacket_s_062",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 63,
+    "title": "needLe",
+    "pronunciation": "にーどる",
+    "assetbundleName": "jacket_s_063",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 64,
+    "title": "ステラ",
+    "pronunciation": "すてら",
+    "assetbundleName": "jacket_s_064",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴≒APD＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 66,
+    "title": "ハロ／ハワユ",
+    "pronunciation": "はろはわゆ",
+    "assetbundleName": "jacket_s_066",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 67,
+    "title": "自傷無色",
+    "pronunciation": "じしょうむしょく",
+    "assetbundleName": "jacket_s_067",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 68,
+    "title": "ダンスロボットダンス",
+    "pronunciation": "だんすろぼっとだんす",
+    "assetbundleName": "jacket_s_068",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≧🔴＞🟡≧🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 69,
+    "title": "フラジール",
+    "pronunciation": "ふらじーる",
+    "assetbundleName": "jacket_s_069",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 70,
+    "title": "メルティランドナイトメア",
+    "pronunciation": "めるてぃらんどないとめあ",
+    "assetbundleName": "jacket_s_070",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 71,
+    "title": "ツギハギスタッカート",
+    "pronunciation": "つぎはぎすたっかーと",
+    "assetbundleName": "jacket_s_071",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 72,
+    "title": "ブレス・ユア・ブレス",
+    "pronunciation": "ぶれすゆあぶれす",
+    "assetbundleName": "jacket_s_072",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 73,
+    "title": "ニア",
+    "pronunciation": "にあ",
+    "assetbundleName": "jacket_s_073",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 74,
+    "title": "独りんぼエンヴィー",
+    "pronunciation": "ひとりんぼえんヴぃー",
+    "assetbundleName": "jacket_s_074",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 75,
+    "title": "ウミユリ海底譚",
+    "pronunciation": "うみゆりかいていたん",
+    "assetbundleName": "jacket_s_075",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 76,
+    "title": "セカイ",
+    "pronunciation": "せかい",
+    "assetbundleName": "jacket_s_076",
+    "musicTag": ["all", "vocaloid", "other"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 77,
+    "title": "ワーワーワールド",
+    "pronunciation": "わーわーわーるど",
+    "assetbundleName": "jacket_s_077",
+    "musicTag": ["all", "vocaloid", "other"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🟢≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 78,
+    "title": "ぼうけんのしょがきえました！",
+    "pronunciation": "ぼうけんのしょがきえました",
+    "assetbundleName": "jacket_s_078",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 81,
+    "title": "夜咄ディセイブ",
+    "pronunciation": "よばなしでぃせいぶ",
+    "assetbundleName": "jacket_s_081",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 82,
+    "title": "alive",
+    "pronunciation": "あらいぶ",
+    "assetbundleName": "jacket_s_082",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵"],
+    "encore": []
+  },
+  {
+    "id": 83,
+    "title": "Gimme×Gimme",
+    "pronunciation": "ぎみぎみ",
+    "assetbundleName": "jacket_s_083",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 84,
+    "title": "ジャンキーナイトタウンオーケストラ",
+    "pronunciation": "じゃんきーないとたうんおーけすとら",
+    "assetbundleName": "jacket_s_084",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 85,
+    "title": "Leia - Remind",
+    "pronunciation": "れいありまいんど",
+    "assetbundleName": "jacket_s_085",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 86,
+    "title": "on the rocks",
+    "pronunciation": "おんざろっくす",
+    "assetbundleName": "jacket_s_086",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡＞🔵≒🟢"],
+    "encore": []
+  },
+  {
+    "id": 87,
+    "title": "恋愛裁判",
+    "pronunciation": "れんあいさいばん",
+    "assetbundleName": "jacket_s_087",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 88,
+    "title": "チュルリラ・チュルリラ・ダッダッダ！",
+    "pronunciation": "ちゅるりらちゅるりらだっだっだ",
+    "assetbundleName": "jacket_s_088",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡🔵"],
+    "priority": ["🟣＞🔵≒🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 89,
+    "title": "Color of Drops",
+    "pronunciation": "からーおぶどろっぷす",
+    "assetbundleName": "jacket_s_089",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 90,
+    "title": "限りなく灰色へ",
+    "pronunciation": "かぎりなくはいいろへ",
+    "assetbundleName": "jacket_s_090",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 91,
+    "title": "ドラマツルギー",
+    "pronunciation": "どらまつるぎー",
+    "assetbundleName": "jacket_s_091",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🟡≒🔵≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 92,
+    "title": "乙女解剖",
+    "pronunciation": "おとめかいぼう",
+    "assetbundleName": "jacket_s_092",
+    "musicTag": ["all", "school_refusal", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 93,
+    "title": "青く駆けろ！",
+    "pronunciation": "あおくかけろ",
+    "assetbundleName": "jacket_s_093",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 94,
+    "title": "とても痛い痛がりたい",
+    "pronunciation": "とてもいたいいたがりたい",
+    "assetbundleName": "jacket_s_094",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 95,
+    "title": "威風堂々",
+    "pronunciation": "いふうどうどう",
+    "assetbundleName": "jacket_s_095",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 96,
+    "title": "from Y to Y",
+    "pronunciation": "ふろむわいとぅわい",
+    "assetbundleName": "jacket_s_096",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 97,
+    "title": "霽れを待つ",
+    "pronunciation": "はれをまつ",
+    "assetbundleName": "jacket_s_097",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 98,
+    "title": "ロストワンの号哭",
+    "pronunciation": "ろすとわんのごうこく",
+    "assetbundleName": "jacket_s_098",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 99,
+    "title": "モア！ジャンプ！モア！",
+    "pronunciation": "もあじゃんぷもあ",
+    "assetbundleName": "jacket_s_099",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞APD≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 100,
+    "title": "ECHO",
+    "pronunciation": "えこー",
+    "assetbundleName": "jacket_s_100",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": []
+  },
+  {
+    "id": 101,
+    "title": "RAD DOGS",
+    "pronunciation": "らっどどっぐす",
+    "assetbundleName": "jacket_s_101",
+    "musicTag": ["all", "street", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 102,
+    "title": "幽霊東京",
+    "pronunciation": "ゆうれいとうきょう",
+    "assetbundleName": "jacket_s_102",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🔴≒🟣＞🟢≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 103,
+    "title": "ニジイロストーリーズ",
+    "pronunciation": "にじいろすとーりーず",
+    "assetbundleName": "jacket_s_103",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 104,
+    "title": "サンドリヨン 10th Anniversary",
+    "pronunciation": "さんどりよんてんすあにばーさりー",
+    "assetbundleName": "jacket_s_104",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 105,
+    "title": "ワンスアポンアドリーム",
+    "pronunciation": "わんすあぽんあどりーむ",
+    "assetbundleName": "jacket_s_105",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 106,
+    "title": "お気に召すまま",
+    "pronunciation": "おきにめすまま",
+    "assetbundleName": "jacket_s_106",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 107,
+    "title": "ミルククラウン・オン・ソーネチカ",
+    "pronunciation": "みるくくらうんおんそーねちか",
+    "assetbundleName": "jacket_s_107",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 108,
+    "title": "愛されなくても君がいる",
+    "pronunciation": "あいされなくてもきみがいる",
+    "assetbundleName": "jacket_s_108",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🔵＞🟣≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 109,
+    "title": "ヒビカセ",
+    "pronunciation": "ひびかせ",
+    "assetbundleName": "jacket_s_109",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 110,
+    "title": "千本桜",
+    "pronunciation": "せんぼんざくら",
+    "assetbundleName": "jacket_s_110",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 111,
+    "title": "カトラリー",
+    "pronunciation": "かとらりー",
+    "assetbundleName": "jacket_s_111",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 112,
+    "title": "天使のクローバー",
+    "pronunciation": "てんしのくろーばー",
+    "assetbundleName": "jacket_s_112",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 113,
+    "title": "ローリンガール",
+    "pronunciation": "ろーりんがーる",
+    "assetbundleName": "jacket_s_113",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 114,
+    "title": "裏表ラバーズ",
+    "pronunciation": "うらおもてらばーず",
+    "assetbundleName": "jacket_s_114",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 115,
+    "title": "アンノウン・マザーグース",
+    "pronunciation": "あんのうんまざーぐーす",
+    "assetbundleName": "jacket_s_115",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 116,
+    "title": "アイディスマイル",
+    "pronunciation": "あいでぃすまいる",
+    "assetbundleName": "jacket_s_116",
+    "musicTag": ["all", "school_refusal", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD≒🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 117,
+    "title": "ODDS＆ENDS",
+    "pronunciation": "おっずあんどえんず",
+    "assetbundleName": "jacket_s_117",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": []
+  },
+  {
+    "id": 118,
+    "title": "＊ハロー、プラネット。",
+    "pronunciation": "はろーぷらねっと",
+    "assetbundleName": "jacket_s_118",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 119,
+    "title": "ワールズエンド・ダンスホール",
+    "pronunciation": "わーるずえんどだんすほーる",
+    "assetbundleName": "jacket_s_119",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 120,
+    "title": "いかないで",
+    "pronunciation": "いかないで",
+    "assetbundleName": "jacket_s_120",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞APD＞🔴≒🟡＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 121,
+    "title": "ロミオとシンデレラ",
+    "pronunciation": "ろみおとしんでれら",
+    "assetbundleName": "jacket_s_121",
+    "musicTag": ["vocaloid", "idol", "all"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 122,
+    "title": "ポジティブ☆ダンスタイム",
+    "pronunciation": "ぽじてぃぶだんすたいむ",
+    "assetbundleName": "jacket_s_122",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 123,
+    "title": "どりーみんチュチュ",
+    "pronunciation": "どりーみんちゅちゅ",
+    "assetbundleName": "jacket_s_123",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 124,
+    "title": "みくみくにしてあげる♪【してやんよ】",
+    "pronunciation": "みくみくにしてあげるしてやんよ",
+    "assetbundleName": "jacket_s_124",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 125,
+    "title": "ボッカデラベリタ",
+    "pronunciation": "ぼっかでらべりた",
+    "assetbundleName": "jacket_s_125",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 126,
+    "title": "シネマ",
+    "pronunciation": "しねま",
+    "assetbundleName": "jacket_s_126",
+    "musicTag": ["all", "street", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD≒🟣＞🟡＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 127,
+    "title": "トンデモワンダーズ",
+    "pronunciation": "とんでもわんだーず",
+    "assetbundleName": "jacket_s_127",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["APD＞🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 128,
+    "title": "Brand New Day",
+    "pronunciation": "ぶらんどにゅーでい",
+    "assetbundleName": "jacket_s_128",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 129,
+    "title": "ビターチョコデコレーション",
+    "pronunciation": "びたーちょこでこれーしょん",
+    "assetbundleName": "jacket_s_129",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔴＞🔵≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 130,
+    "title": "フロムトーキョー",
+    "pronunciation": "ふろむとーきょー",
+    "assetbundleName": "jacket_s_130",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 131,
+    "title": "初音ミクの激唱",
+    "pronunciation": "はつねみくのげきしょう",
+    "assetbundleName": "jacket_s_131",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 132,
+    "title": "「１」",
+    "pronunciation": "いち",
+    "assetbundleName": "jacket_s_132",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["APD＞🟣＞🔴＞🟡≒🔵"],
+    "encore": []
+  },
+  {
+    "id": 133,
+    "title": "悪魔の踊り方",
+    "pronunciation": "あくまのおどりかた",
+    "assetbundleName": "jacket_s_133",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 134,
+    "title": "テレキャスタービーボーイ",
+    "pronunciation": "てれきゃすたーびーぼーい",
+    "assetbundleName": "jacket_s_134",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞APD≒🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 135,
+    "title": "六兆年と一夜物語",
+    "pronunciation": "ろくちょうねんといちやものがたり",
+    "assetbundleName": "jacket_s_135",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 136,
+    "title": "チルドレンレコード",
+    "pronunciation": "ちるどれんれこーど",
+    "assetbundleName": "jacket_s_136",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 137,
+    "title": "花を唄う",
+    "pronunciation": "はなをうたう",
+    "assetbundleName": "jacket_s_137",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🔴≒🟣＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 138,
+    "title": "KING",
+    "pronunciation": "きんぐ",
+    "assetbundleName": "jacket_s_138",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["APD＞🟣≒🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 139,
+    "title": "夜に駆ける",
+    "pronunciation": "よるにかける",
+    "assetbundleName": "jacket_s_139",
+    "musicTag": [
+      "all",
+      "vocaloid",
+      "light_music_club",
+      "idol",
+      "street",
+      "theme_park",
+      "school_refusal"
+    ],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 140,
+    "title": "アイスドロップ",
+    "pronunciation": "あいすどろっぷ",
+    "assetbundleName": "jacket_s_140",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟢"],
+    "priority": ["🟣≒🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 141,
+    "title": "群青讃歌",
+    "pronunciation": "ぐんじょうさんか",
+    "assetbundleName": "jacket_s_141",
+    "musicTag": [
+      "all",
+      "vocaloid",
+      "other",
+      "light_music_club",
+      "idol",
+      "street",
+      "theme_park",
+      "school_refusal"
+    ],
+    "compromise": ["🔵"],
+    "priority": ["APD＞＞🟣＞🔴≒🔵"],
+    "encore": []
+  },
+  {
+    "id": 142,
+    "title": "再生",
+    "pronunciation": "さいせい",
+    "assetbundleName": "jacket_s_142",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟡≧🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 143,
+    "title": "トラフィック・ジャム",
+    "pronunciation": "とらふぃっくじゃむ",
+    "assetbundleName": "jacket_s_143",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 144,
+    "title": "アイノマテリアル",
+    "pronunciation": "あいのまてりある",
+    "assetbundleName": "jacket_s_144",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 145,
+    "title": "ベノム",
+    "pronunciation": "べのむ",
+    "assetbundleName": "jacket_s_145",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 146,
+    "title": "リモコン",
+    "pronunciation": "りもこん",
+    "assetbundleName": "jacket_s_146",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 147,
+    "title": "からくりピエロ",
+    "pronunciation": "からくりぴえろ",
+    "assetbundleName": "jacket_s_147",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 148,
+    "title": "ray",
+    "pronunciation": "れい",
+    "assetbundleName": "jacket_s_148",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 149,
+    "title": "カナデトモスソラ",
+    "pronunciation": "かなでともすそら",
+    "assetbundleName": "jacket_s_149",
+    "musicTag": ["all", "school_refusal", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 150,
+    "title": "トキヲ・ファンカ",
+    "pronunciation": "ときをふぁんか",
+    "assetbundleName": "jacket_s_150",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 151,
+    "title": "泡沫未来",
+    "pronunciation": "うたかたみらい",
+    "assetbundleName": "jacket_s_151",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞APD＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 152,
+    "title": "だれかの心臓になれたなら",
+    "pronunciation": "だれかのしんぞうになれたら",
+    "assetbundleName": "jacket_s_152",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡＞🟢"],
+    "encore": []
+  },
+  {
+    "id": 153,
+    "title": "Miku",
+    "pronunciation": "みく",
+    "assetbundleName": "jacket_s_153",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 154,
+    "title": "地球最後の告白を",
+    "pronunciation": "ちきゅうさいごのこくはくを",
+    "assetbundleName": "jacket_s_154",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 155,
+    "title": "心拍数♯0822",
+    "pronunciation": "しんぱくすうしゃーぷぜろはちにーにー",
+    "assetbundleName": "jacket_s_155",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 156,
+    "title": "Beat Eater",
+    "pronunciation": "びーといーたー",
+    "assetbundleName": "jacket_s_156",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟢"],
+    "priority": ["APD＞🟣≒🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 157,
+    "title": "マシュマリー",
+    "pronunciation": "ましゅまりー",
+    "assetbundleName": "jacket_s_157",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 158,
+    "title": "ナンセンス文学",
+    "pronunciation": "なんせんすぶんがく",
+    "assetbundleName": "jacket_s_158",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 159,
+    "title": "STAGE OF SEKAI",
+    "pronunciation": "すてーじおぶせかい",
+    "assetbundleName": "jacket_s_159",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 160,
+    "title": "ショウタイム・ルーラー",
+    "pronunciation": "しょうたいむるーらー",
+    "assetbundleName": "jacket_s_160",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 161,
+    "title": "magic number",
+    "pronunciation": "まじっくなんばー",
+    "assetbundleName": "jacket_s_161",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 162,
+    "title": "エンドマークに希望と涙を添えて",
+    "pronunciation": "えんどまーくにきぼうとなみだをそえて",
+    "assetbundleName": "jacket_s_162",
+    "musicTag": ["all", "other"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 163,
+    "title": "the EmpErroR",
+    "pronunciation": "じえんぺらー",
+    "assetbundleName": "jacket_s_163",
+    "musicTag": ["all", "other"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 164,
+    "title": "Don't Fight The Music",
+    "pronunciation": "どんとふぁいとざみゅーじっく",
+    "assetbundleName": "jacket_s_164",
+    "musicTag": ["all", "other"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 165,
+    "title": "そうだった！！",
+    "pronunciation": "そうだった",
+    "assetbundleName": "jacket_s_165",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 166,
+    "title": "Glory Steady Go!",
+    "pronunciation": "ぐろーりーすてでぃごー",
+    "assetbundleName": "jacket_s_166",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 167,
+    "title": "オルターエゴ",
+    "pronunciation": "おるたーえご",
+    "assetbundleName": "jacket_s_167",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 168,
+    "title": "ダーリンダンス",
+    "pronunciation": "だーりんだんす",
+    "assetbundleName": "jacket_s_168",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟢"],
+    "priority": ["🔴≒🟣＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 169,
+    "title": "少女レイ",
+    "pronunciation": "しょうじょれい",
+    "assetbundleName": "jacket_s_169",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟢"],
+    "priority": ["🟣≒🔴≒APD＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 170,
+    "title": "ヴィラン",
+    "pronunciation": "ヴぃらん",
+    "assetbundleName": "jacket_s_170",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 171,
+    "title": "カゲロウデイズ",
+    "pronunciation": "かげろうでいず",
+    "assetbundleName": "jacket_s_171",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 172,
+    "title": "Happy Halloween",
+    "pronunciation": "はっぴーはろうぃん",
+    "assetbundleName": "jacket_s_172",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟢"],
+    "priority": ["APD＞🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 173,
+    "title": "流星のパルス",
+    "pronunciation": "りゅうせいのぱるす",
+    "assetbundleName": "jacket_s_173",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟢"],
+    "priority": ["🟣≒🟢＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 174,
+    "title": "いーあるふぁんくらぶ",
+    "pronunciation": "いーあるふぁんくらぶ",
+    "assetbundleName": "jacket_s_174",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 175,
+    "title": "拝啓ドッペルゲンガー",
+    "pronunciation": "はいけいどっぺるげんがー",
+    "assetbundleName": "jacket_s_175",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 176,
+    "title": "マシンガンポエムドール",
+    "pronunciation": "ましんがんぽえむどーる",
+    "assetbundleName": "jacket_s_176",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 177,
+    "title": "右肩の蝶",
+    "pronunciation": "みぎかたのちょう",
+    "assetbundleName": "jacket_s_177",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 178,
+    "title": "にっこり^^調査隊のテーマ",
+    "pronunciation": "にっこりちょうさたいのてーま",
+    "assetbundleName": "jacket_s_178",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 179,
+    "title": "炉心融解",
+    "pronunciation": "ろしんゆうかい",
+    "assetbundleName": "jacket_s_179",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 180,
+    "title": "ミライ",
+    "pronunciation": "みらい",
+    "assetbundleName": "jacket_s_180",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 181,
+    "title": "愛して愛して愛して",
+    "pronunciation": "あいしてあいしてあいして",
+    "assetbundleName": "jacket_s_181",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 182,
+    "title": "Flyer!",
+    "pronunciation": "ふらいやー",
+    "assetbundleName": "jacket_s_182",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["APD＞🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 183,
+    "title": "フィクサー",
+    "pronunciation": "ふぃくさー",
+    "assetbundleName": "jacket_s_183",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 184,
+    "title": "Hello,world!",
+    "pronunciation": "はろーわーるど",
+    "assetbundleName": "jacket_s_184",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 185,
+    "title": "しっくおぶはうす！",
+    "pronunciation": "しっくおぶはうす",
+    "assetbundleName": "jacket_s_185",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 186,
+    "title": "初音天地開闢神話",
+    "pronunciation": "はつねてんちかいびゃくしんわ",
+    "assetbundleName": "jacket_s_186",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 187,
+    "title": "ロウワー",
+    "pronunciation": "ろうわー",
+    "assetbundleName": "jacket_s_187",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["APD≒🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 188,
+    "title": "心予報",
+    "pronunciation": "こころよほう",
+    "assetbundleName": "jacket_s_188",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["APD＞🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 189,
+    "title": "ノマド",
+    "pronunciation": "のまど",
+    "assetbundleName": "jacket_s_189",
+    "musicTag": ["all", "school_refusal", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 190,
+    "title": "悪ノ娘",
+    "pronunciation": "あくのむすめ",
+    "assetbundleName": "jacket_s_190",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔵≧🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 191,
+    "title": "悪ノ召使",
+    "pronunciation": "あくのめしつかい",
+    "assetbundleName": "jacket_s_191",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟡＞🟣＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 192,
+    "title": "去り人達のワルツ",
+    "pronunciation": "さりびとたちのわるつ",
+    "assetbundleName": "jacket_s_192",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 193,
+    "title": "ワールドワイドワンダー",
+    "pronunciation": "わーるどわいどわんだー",
+    "assetbundleName": "jacket_s_193",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 194,
+    "title": "妄想感傷代償連盟",
+    "pronunciation": "もうそうかんしょうだいしょうれんめい",
+    "assetbundleName": "jacket_s_194",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒APD＞🟡≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 195,
+    "title": "PaⅢ.SENSATION",
+    "pronunciation": "ぱっしょねーとすりーどっとせんせーしょん",
+    "assetbundleName": "jacket_s_195",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 196,
+    "title": "オーダーメイド",
+    "pronunciation": "おーだーめいど",
+    "assetbundleName": "jacket_s_196",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 197,
+    "title": "ラストスコア",
+    "pronunciation": "らすとすこあ",
+    "assetbundleName": "jacket_s_197",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 198,
+    "title": "グッバイ宣言",
+    "pronunciation": "ぐっばいせんげん",
+    "assetbundleName": "jacket_s_198",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["APD＞🟣＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 199,
+    "title": "ゴーストルール",
+    "pronunciation": "ごーすとるーる",
+    "assetbundleName": "jacket_s_199",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 200,
+    "title": "ガランド",
+    "pronunciation": "がらんど",
+    "assetbundleName": "jacket_s_200",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 201,
+    "title": "神のまにまに",
+    "pronunciation": "かみのまにまに",
+    "assetbundleName": "jacket_s_201",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 202,
+    "title": "Q",
+    "pronunciation": "きゅー",
+    "assetbundleName": "jacket_s_202",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 203,
+    "title": "トリコロージュ",
+    "pronunciation": "とりころーじゅ",
+    "assetbundleName": "jacket_s_203",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 204,
+    "title": "うっせぇわ",
+    "pronunciation": "うっせぇわ",
+    "assetbundleName": "jacket_s_204",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 205,
+    "title": "踊",
+    "pronunciation": "おど",
+    "assetbundleName": "jacket_s_205",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 206,
+    "title": "君色マリンスノウ",
+    "pronunciation": "きみいろまりんすのう",
+    "assetbundleName": "jacket_s_206",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 207,
+    "title": "Peaky Peaky",
+    "pronunciation": "ぴーきーぴーきー",
+    "assetbundleName": "jacket_s_207",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 208,
+    "title": "僕らまだアンダーグラウンド",
+    "pronunciation": "ぼくらまだあんだーぐらうんど",
+    "assetbundleName": "jacket_s_208",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 209,
+    "title": "メタモリボン",
+    "pronunciation": "めたもりぼん",
+    "assetbundleName": "jacket_s_209",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": ["🔴"]
+  },
+  {
+    "id": 210,
+    "title": "雨とペトラ",
+    "pronunciation": "あめとぺとら",
+    "assetbundleName": "jacket_s_210",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 211,
+    "title": "イフ",
+    "pronunciation": "いふ",
+    "assetbundleName": "jacket_s_211",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 212,
+    "title": "星空のメロディー",
+    "pronunciation": "ほしぞらのめろでぃー",
+    "assetbundleName": "jacket_s_212",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 213,
+    "title": "ヴァンパイア",
+    "pronunciation": "ヴぁんぱいあ",
+    "assetbundleName": "jacket_s_213",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒APD＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 214,
+    "title": "パレットには君がいっぱい",
+    "pronunciation": "ぱれっとにはきみがいっぱい",
+    "assetbundleName": "jacket_s_214",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 215,
+    "title": "ジウダス",
+    "pronunciation": "じうだす",
+    "assetbundleName": "jacket_s_215",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 216,
+    "title": "ルカルカ★ナイトフィーバー",
+    "pronunciation": "るかるかないとふぃーばー",
+    "assetbundleName": "jacket_s_216",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 217,
+    "title": "街",
+    "pronunciation": "まち",
+    "assetbundleName": "jacket_s_217",
+    "musicTag": ["vocaloid", "street", "all"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🟢＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 218,
+    "title": "メリュー",
+    "pronunciation": "めりゅー",
+    "assetbundleName": "jacket_s_218",
+    "musicTag": ["vocaloid", "school_refusal", "all"],
+    "compromise": ["🔵🟢"],
+    "priority": ["🟣＞🔴＞＞🟢≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 219,
+    "title": "砂の惑星",
+    "pronunciation": "すなのわくせい",
+    "assetbundleName": "jacket_s_219",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 220,
+    "title": "ドーナツホール 2024",
+    "pronunciation": "どーなつほーる　にーまるにーよん",
+    "assetbundleName": "jacket_s_220",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["APD＞＞🟣＞🔴＞＞🟢"],
+    "encore": []
+  },
+  {
+    "id": 221,
+    "title": "マトリョシカ",
+    "pronunciation": "まとりょしか",
+    "assetbundleName": "jacket_s_221",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 222,
+    "title": "ピアノ×フォルテ×スキャンダル",
+    "pronunciation": "ぴあのふぉるてすきゃんだる",
+    "assetbundleName": "jacket_s_222",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 223,
+    "title": "千年の独奏歌",
+    "pronunciation": "せんねんのどくそうか",
+    "assetbundleName": "jacket_s_223",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 224,
+    "title": "88☆彡",
+    "pronunciation": "はちじゅうはち",
+    "assetbundleName": "jacket_s_224",
+    "musicTag": ["all", "theme_park", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒APD＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 225,
+    "title": "エゴロック",
+    "pronunciation": "えごろっく",
+    "assetbundleName": "jacket_s_225",
+    "musicTag": ["all", "theme_park", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 226,
+    "title": "ロストエンファウンド",
+    "pronunciation": "ろすとえんふぁうんど",
+    "assetbundleName": "jacket_s_226",
+    "musicTag": ["all", "light_music_club", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟡≒🔴＞🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 227,
+    "title": "ONESELF",
+    "pronunciation": "わんせるふ",
+    "assetbundleName": "jacket_s_227",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 228,
+    "title": "Goodbye",
+    "pronunciation": "ぐっどばい",
+    "assetbundleName": "jacket_s_228",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣≒🟡"],
+    "encore": []
+  },
+  {
+    "id": 229,
+    "title": "脳漿炸裂ガール",
+    "pronunciation": "のうしょうさくれつがーる",
+    "assetbundleName": "jacket_s_229",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣≒🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 230,
+    "title": "サラマンダー",
+    "pronunciation": "さらまんだー",
+    "assetbundleName": "jacket_s_230",
+    "musicTag": ["all", "vocaloid", "other"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 231,
+    "title": "アイデンティティ",
+    "pronunciation": "あいでんてぃてぃ",
+    "assetbundleName": "jacket_s_231",
+    "musicTag": ["all", "vocaloid", "other"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 232,
+    "title": "青色絵具",
+    "pronunciation": "あおいろえのぐ",
+    "assetbundleName": "jacket_s_232",
+    "musicTag": ["all", "vocaloid", "other"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🔵≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 233,
+    "title": "コスモスパイス",
+    "pronunciation": "こすもすぱいす",
+    "assetbundleName": "jacket_s_233",
+    "musicTag": ["all", "vocaloid", "other"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 234,
+    "title": "徳川カップヌードル禁止令",
+    "pronunciation": "とくがわかっぷぬーどるきんしれい",
+    "assetbundleName": "jacket_s_234",
+    "musicTag": ["all", "other"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔵＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 235,
+    "title": "Journey",
+    "pronunciation": "じゃーにー",
+    "assetbundleName": "jacket_s_235",
+    "musicTag": [
+      "all",
+      "vocaloid",
+      "light_music_club",
+      "idol",
+      "street",
+      "theme_park",
+      "school_refusal",
+      "other"
+    ],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 236,
+    "title": "Voices",
+    "pronunciation": "ヴぉいしーず",
+    "assetbundleName": "jacket_s_236",
+    "musicTag": ["all", "light_music_club", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 237,
+    "title": "君の夜をくれ",
+    "pronunciation": "きみのよるをくれ",
+    "assetbundleName": "jacket_s_237",
+    "musicTag": ["all", "school_refusal", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 238,
+    "title": "ブラック★ロックシューター",
+    "pronunciation": "ぶらっくろっくしゅーたー",
+    "assetbundleName": "jacket_s_238",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 239,
+    "title": "月光",
+    "pronunciation": "げっこう",
+    "assetbundleName": "jacket_s_239",
+    "musicTag": ["all", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 240,
+    "title": "踊れオーケストラ",
+    "pronunciation": "おどれおーけすとら",
+    "assetbundleName": "jacket_s_240",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 241,
+    "title": "アサガオの散る頃に",
+    "pronunciation": "あさがおのちるころに",
+    "assetbundleName": "jacket_s_241",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": [],
+    "priority": [],
+    "encore": []
+  },
+  {
+    "id": 242,
+    "title": "トリノコシティ",
+    "pronunciation": "とりのこしてぃ",
+    "assetbundleName": "jacket_s_242",
+    "musicTag": ["all", "idol", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🟢≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 243,
+    "title": "Calc.",
+    "pronunciation": "かるく",
+    "assetbundleName": "jacket_s_243",
+    "musicTag": ["all", "light_music_club", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 244,
+    "title": "Awake Now",
+    "pronunciation": "あうぇいくなう",
+    "assetbundleName": "jacket_s_244",
+    "musicTag": ["all", "street"],
+    "compromise": ["🔵"],
+    "priority": ["APD＞🟣＞🔴＞🔵"],
+    "encore": []
+  },
+  {
+    "id": 245,
+    "title": "阿吽のビーツ",
+    "pronunciation": "あうんのびーつ",
+    "assetbundleName": "jacket_s_245",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 246,
+    "title": "エイリアンエイリアン",
+    "pronunciation": "えいりあんえいりあん",
+    "assetbundleName": "jacket_s_246",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 247,
+    "title": "Copycat",
+    "pronunciation": "こぴーきゃっと",
+    "assetbundleName": "jacket_s_247",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 248,
+    "title": "バグ",
+    "pronunciation": "ばぐ",
+    "assetbundleName": "jacket_s_248",
+    "musicTag": ["all", "school_refusal", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 249,
+    "title": "ぼくらの16bit戦争",
+    "pronunciation": "ぼくらのしっくすてぃーんびっとうぉーず",
+    "assetbundleName": "jacket_s_249",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 250,
+    "title": "腐れ外道とチョコレゐト",
+    "pronunciation": "くされげどうとちょこれいと",
+    "assetbundleName": "jacket_s_250",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🔵≒🔴＞🟣≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 251,
+    "title": "フロイライン＝ビブリォチカ",
+    "pronunciation": "ふろいらいんびぶりぉちか",
+    "assetbundleName": "jacket_s_251",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 252,
+    "title": "DREAM PLACE",
+    "pronunciation": "どりーむぷれいす",
+    "assetbundleName": "jacket_s_252",
+    "musicTag": ["all", "idol", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 253,
+    "title": "DAYBREAK FRONTLINE",
+    "pronunciation": "でいぶれいくふろんとらいん",
+    "assetbundleName": "jacket_s_253",
+    "musicTag": ["all", "street", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞APD＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 254,
+    "title": "未完成讃歌",
+    "pronunciation": "みかんせいさんか",
+    "assetbundleName": "jacket_s_254",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 255,
+    "title": "夜もすがら君想ふ",
+    "pronunciation": "よもすがらきみおもう",
+    "assetbundleName": "jacket_s_255",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🟢≒🔵＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 256,
+    "title": "ダブルラリアット",
+    "pronunciation": "だぶるらりあっと",
+    "assetbundleName": "jacket_s_256",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 257,
+    "title": "てらてら",
+    "pronunciation": "てらてら",
+    "assetbundleName": "jacket_s_257",
+    "musicTag": ["vocaloid", "light_music_club", "all"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 258,
+    "title": "深海少女",
+    "pronunciation": "しんかいしょうじょ",
+    "assetbundleName": "jacket_s_258",
+    "musicTag": ["all", "idol", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟡＞🟣≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 259,
+    "title": "the WALL",
+    "pronunciation": "ざうぉーる",
+    "assetbundleName": "jacket_s_259",
+    "musicTag": ["all", "light_music_club", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 260,
+    "title": "ラブカ？",
+    "pronunciation": "らぶか",
+    "assetbundleName": "jacket_s_260",
+    "musicTag": ["all", "theme_park", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 261,
+    "title": "星屑ユートピア",
+    "pronunciation": "ほしくずゆーとぴあ",
+    "assetbundleName": "jacket_s_261",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 262,
+    "title": "帝国少女",
+    "pronunciation": "ていこくしょうじょ",
+    "assetbundleName": "jacket_s_262",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 263,
+    "title": "Highlight",
+    "pronunciation": "はいらいと",
+    "assetbundleName": "jacket_s_263",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 264,
+    "title": "パラソルサイダー",
+    "pronunciation": "ぱらそるさいだー",
+    "assetbundleName": "jacket_s_264",
+    "musicTag": ["all", "vocaloid", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🔴＞🟣＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 265,
+    "title": "Change me",
+    "pronunciation": "ちぇんじみー",
+    "assetbundleName": "jacket_s_265",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 266,
+    "title": "YY",
+    "pronunciation": "わいわい",
+    "assetbundleName": "jacket_s_266",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔵≒🔴＞APD"],
+    "encore": ["🔴"]
+  },
+  {
+    "id": 267,
+    "title": "仮死化",
+    "pronunciation": "かしか",
+    "assetbundleName": "jacket_s_267",
+    "musicTag": ["all", "street", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 268,
+    "title": "ノンブレス・オブリージュ",
+    "pronunciation": "のんぶれすおぶりーじゅ",
+    "assetbundleName": "jacket_s_268",
+    "musicTag": ["all", "school_refusal", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 269,
+    "title": "ロンリーユニバース",
+    "pronunciation": "ろんりーゆにばーす",
+    "assetbundleName": "jacket_s_269",
+    "musicTag": ["all", "idol", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 270,
+    "title": "泥中に咲く",
+    "pronunciation": "でいちゅうにさく",
+    "assetbundleName": "jacket_s_270",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🔴≒🟣＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 271,
+    "title": "あったかいと",
+    "pronunciation": "あったかいと",
+    "assetbundleName": "jacket_s_271",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 272,
+    "title": "ジェヘナ",
+    "pronunciation": "じぇへな",
+    "assetbundleName": "jacket_s_272",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 273,
+    "title": "フューチャー・イヴ",
+    "pronunciation": "ふゅーちゃーいヴ",
+    "assetbundleName": "jacket_s_273",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒🟡"],
+    "encore": []
+  },
+  {
+    "id": 274,
+    "title": "それでもいいんだよ",
+    "pronunciation": "それでもいいんだよ",
+    "assetbundleName": "jacket_s_274",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 275,
+    "title": "パラジクロロベンゼン",
+    "pronunciation": "ぱらじくろろべんぜん",
+    "assetbundleName": "jacket_s_275",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 276,
+    "title": "シャンティ",
+    "pronunciation": "しゃんてぃ",
+    "assetbundleName": "jacket_s_276",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🔴≒🟣＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 277,
+    "title": "フォニイ",
+    "pronunciation": "ふぉにい",
+    "assetbundleName": "jacket_s_277",
+    "musicTag": ["all", "school_refusal", "vocaloid"],
+    "compromise": [""],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": []
+  },
+  {
+    "id": 278,
+    "title": "Bad ∞ End ∞ Night",
+    "pronunciation": "ばっどえんどないと",
+    "assetbundleName": "jacket_s_278",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": []
+  },
+  {
+    "id": 279,
+    "title": "こちら、幸福安心委員会です。",
+    "pronunciation": "こちらこうふくあんしんいいんかいです",
+    "assetbundleName": "jacket_s_279",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 280,
+    "title": "虚ろを扇ぐ",
+    "pronunciation": "うつろをあおぐ",
+    "assetbundleName": "jacket_s_280",
+    "musicTag": ["all", "street", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 281,
+    "title": "気まぐれメルシィ",
+    "pronunciation": "きまぐれめるしぃ",
+    "assetbundleName": "jacket_s_281",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 282,
+    "title": "星空オーケストラ",
+    "pronunciation": "ほしぞらおーけすとら",
+    "assetbundleName": "jacket_s_282",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟡＞🟣≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 283,
+    "title": "レイニースノードロップ",
+    "pronunciation": "れいにーすのーどろっぷ",
+    "assetbundleName": "jacket_s_283",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 284,
+    "title": "インビジブル",
+    "pronunciation": "いんびじぶる",
+    "assetbundleName": "jacket_s_284",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 285,
+    "title": "ÅMARA(大未来電脳)",
+    "pronunciation": "あまらだいみらいでんのう",
+    "assetbundleName": "jacket_s_285",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡≒🟢"],
+    "encore": []
+  },
+  {
+    "id": 286,
+    "title": "Hello, Worker",
+    "pronunciation": "はろーわーかー",
+    "assetbundleName": "jacket_s_286",
+    "musicTag": ["all", "light_music_club", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 287,
+    "title": "私は、私達は",
+    "pronunciation": "わたしはわたしたちは",
+    "assetbundleName": "jacket_s_287",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 288,
+    "title": "アンハッピーリフレイン",
+    "pronunciation": "あんはっぴーりふれいん",
+    "assetbundleName": "jacket_s_288",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 289,
+    "title": "天ノ弱",
+    "pronunciation": "あまのじゃく",
+    "assetbundleName": "jacket_s_289",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣≒🟡＞🟢"],
+    "encore": ["🟡"]
+  },
+  {
+    "id": 290,
+    "title": "どんな結末がお望みだい？",
+    "pronunciation": "どんなけつまつがおのぞみだい",
+    "assetbundleName": "jacket_s_290",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": [],
+    "priority": [],
+    "encore": []
+  },
+  {
+    "id": 291,
+    "title": "フェレス",
+    "pronunciation": "ふぇれす",
+    "assetbundleName": "jacket_s_291",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 292,
+    "title": "いちにのさんで",
+    "pronunciation": "いちにのさんで",
+    "assetbundleName": "jacket_s_292",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 293,
+    "title": "アイロニ",
+    "pronunciation": "あいろに",
+    "assetbundleName": "jacket_s_293",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 294,
+    "title": "それがあなたの幸せとしても",
+    "pronunciation": "それがあなたのしあわせとしても",
+    "assetbundleName": "jacket_s_294",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 295,
+    "title": "フロート・プランナー",
+    "pronunciation": "ふろーとぷらんなー",
+    "assetbundleName": "jacket_s_295",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 296,
+    "title": "カンタレラ",
+    "pronunciation": "かんたれら",
+    "assetbundleName": "jacket_s_296",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 297,
+    "title": "p.h.",
+    "pronunciation": "ぺーはー",
+    "assetbundleName": "jacket_s_297",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 298,
+    "title": "ネトゲ廃人シュプレヒコール",
+    "pronunciation": "ねとげはいじんしゅぷれひこーる",
+    "assetbundleName": "jacket_s_298",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 299,
+    "title": "エゴイスト",
+    "pronunciation": "えごいすと",
+    "assetbundleName": "jacket_s_299",
+    "musicTag": ["all", "street", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 300,
+    "title": "ザムザ",
+    "pronunciation": "ざむざ",
+    "assetbundleName": "jacket_s_300",
+    "musicTag": ["all", "school_refusal", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 301,
+    "title": "私の恋はヘルファイア",
+    "pronunciation": "わたしのこいはへるふぁいあ",
+    "assetbundleName": "jacket_s_301",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🔵＞🔴≒🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 302,
+    "title": "フレー",
+    "pronunciation": "ふれー",
+    "assetbundleName": "jacket_s_302",
+    "musicTag": ["all", "light_music_club", "vocaloid", "other"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 303,
+    "title": "リンちゃんなう！",
+    "pronunciation": "りんちゃんなう",
+    "assetbundleName": "jacket_s_303",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔵＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 304,
+    "title": "Iなんです",
+    "pronunciation": "あいなんです",
+    "assetbundleName": "jacket_s_304",
+    "musicTag": ["all", "school_refusal", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒APD＞🔴＞🟡≒🔵"],
+    "encore": []
+  },
+  {
+    "id": 305,
+    "title": "ストロボラスト",
+    "pronunciation": "すとろぼらすと",
+    "assetbundleName": "jacket_s_305",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 306,
+    "title": "1925",
+    "pronunciation": "いちきゅーにーごー",
+    "assetbundleName": "jacket_s_306",
+    "musicTag": ["all", "vocaloid", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": ["🟣"]
+  },
+  {
+    "id": 307,
+    "title": "おこちゃま戦争",
+    "pronunciation": "おこちゃませんそう",
+    "assetbundleName": "jacket_s_307",
+    "musicTag": ["all", "theme_park", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 308,
+    "title": "ももいろの鍵",
+    "pronunciation": "ももいろのかぎ",
+    "assetbundleName": "jacket_s_308",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 309,
+    "title": "Afterglow",
+    "pronunciation": "あふたーぐろう",
+    "assetbundleName": "jacket_s_309",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🔴≒🟣＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 310,
+    "title": "Flyway",
+    "pronunciation": "ふらいうぇい",
+    "assetbundleName": "jacket_s_310",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["APD≒🟣＞＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 311,
+    "title": "夜明けと蛍",
+    "pronunciation": "よあけとほたる",
+    "assetbundleName": "jacket_s_311",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 312,
+    "title": "ココロ",
+    "pronunciation": "こころ",
+    "assetbundleName": "jacket_s_312",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 313,
+    "title": "FREELY TOMORROW",
+    "pronunciation": "ふりーりーとぅもろー",
+    "assetbundleName": "jacket_s_313",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣≒🟢＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 314,
+    "title": "陽だまりのセツナ",
+    "pronunciation": "ひだまりのせつな",
+    "assetbundleName": "jacket_s_314",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 315,
+    "title": "What's up? Pop!",
+    "pronunciation": "わっつあっぷぽっぷ",
+    "assetbundleName": "jacket_s_315",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 316,
+    "title": "ひつじがいっぴき",
+    "pronunciation": "ひつじがいっぴき",
+    "assetbundleName": "jacket_s_316",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 317,
+    "title": "魔法みたいなミュージック！",
+    "pronunciation": "まほうみたいなみゅーじっく",
+    "assetbundleName": "jacket_s_317",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 318,
+    "title": "Sharing The World",
+    "pronunciation": "しぇありんぐざわーるど",
+    "assetbundleName": "jacket_s_318",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🟢≒🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 319,
+    "title": "Decade",
+    "pronunciation": "でぃけいど",
+    "assetbundleName": "jacket_s_319",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 320,
+    "title": "Booo!",
+    "pronunciation": "ぶー",
+    "assetbundleName": "jacket_s_320",
+    "musicTag": ["all", "idol", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 321,
+    "title": "アトラクトライト",
+    "pronunciation": "あとらくとらいと",
+    "assetbundleName": "jacket_s_321",
+    "musicTag": ["all", "vocaloid", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 322,
+    "title": "絶え間なく藍色",
+    "pronunciation": "たえまなくあいいろ",
+    "assetbundleName": "jacket_s_322",
+    "musicTag": ["all", "vocaloid", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🟡＞🟢≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 323,
+    "title": "快晴",
+    "pronunciation": "かいせい",
+    "assetbundleName": "jacket_s_323",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 324,
+    "title": "箱庭のコラル",
+    "pronunciation": "はこにわのこらる",
+    "assetbundleName": "jacket_s_324",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 325,
+    "title": "豚になってyeah yeah",
+    "pronunciation": "ぶたになっていえいいえい",
+    "assetbundleName": "jacket_s_325",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 326,
+    "title": "天使の翼。",
+    "pronunciation": "てんしのつばさ",
+    "assetbundleName": "jacket_s_326",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 327,
+    "title": "SnowMix♪",
+    "pronunciation": "すのうみっくす",
+    "assetbundleName": "jacket_s_327",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 328,
+    "title": "星界ちゃんと可不ちゃんのおつかい合騒曲",
+    "pronunciation": "せかいちゃんとかふちゃんのおつかいがっそうきょく",
+    "assetbundleName": "jacket_s_328",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 329,
+    "title": "ヤミナベ!!!!",
+    "pronunciation": "やみなべ",
+    "assetbundleName": "jacket_s_329",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞＞🟡＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 330,
+    "title": "インタビュア",
+    "pronunciation": "いんたびゅあ",
+    "assetbundleName": "jacket_s_330",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 331,
+    "title": "39",
+    "pronunciation": "さんきゅー",
+    "assetbundleName": "jacket_s_331",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟡＞🟣≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 332,
+    "title": "エピローグに君はいない",
+    "pronunciation": "えぴろーぐにきみはいない",
+    "assetbundleName": "jacket_s_332",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 333,
+    "title": "Mr. Showtime",
+    "pronunciation": "みすたーしょうたいむ",
+    "assetbundleName": "jacket_s_333",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 334,
+    "title": "Vampire's ∞ pathoS",
+    "pronunciation": "ヴぁんぱいあずぱとす",
+    "assetbundleName": "jacket_s_334",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 335,
+    "title": "トラッシュ・アンド・トラッシュ！",
+    "pronunciation": "とらっしゅあんどとらっしゅ",
+    "assetbundleName": "jacket_s_335",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 336,
+    "title": "Be The MUSIC!",
+    "pronunciation": "びーざみゅーじっく",
+    "assetbundleName": "jacket_s_336",
+    "musicTag": ["all", "other"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 337,
+    "title": "METEOR",
+    "pronunciation": "みーてぃあ",
+    "assetbundleName": "jacket_s_337",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞＞🟢≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 338,
+    "title": "Where shall we go?",
+    "pronunciation": "うぇあしゃるうぃーごー",
+    "assetbundleName": "jacket_s_338",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 339,
+    "title": "glow",
+    "pronunciation": "ぐろう",
+    "assetbundleName": "jacket_s_339",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["APD≒🟣＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 340,
+    "title": "とても素敵な六月でした",
+    "pronunciation": "とてもすてきなろくがつでした",
+    "assetbundleName": "jacket_s_340",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 341,
+    "title": "難聴系男子が倒せない",
+    "pronunciation": "なんちょうけいだんしがたおせない",
+    "assetbundleName": "jacket_s_341",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡🔵"],
+    "priority": ["🟣＞🟡≒🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 342,
+    "title": "Blue Star",
+    "pronunciation": "ぶるーすたー",
+    "assetbundleName": "jacket_s_342",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 343,
+    "title": "スノーマン",
+    "pronunciation": "すのーまん",
+    "assetbundleName": "jacket_s_343",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 344,
+    "title": "脳内革命ガール",
+    "pronunciation": "のうないかくめいがーる",
+    "assetbundleName": "jacket_s_344",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 345,
+    "title": "演劇",
+    "pronunciation": "えんげき",
+    "assetbundleName": "jacket_s_345",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 346,
+    "title": "嗚呼、素晴らしきニャン生",
+    "pronunciation": "ああすばらしきにゃんせい",
+    "assetbundleName": "jacket_s_346",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 347,
+    "title": "円尾坂の仕立屋",
+    "pronunciation": "えんびざかのしたてや",
+    "assetbundleName": "jacket_s_347",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 348,
+    "title": "悪徳のジャッジメント",
+    "pronunciation": "あくとくのじゃっじめんと",
+    "assetbundleName": "jacket_s_348",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 349,
+    "title": "悪食娘コンチータ",
+    "pronunciation": "あくじきむすめこんちーた",
+    "assetbundleName": "jacket_s_349",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 350,
+    "title": "眠らせ姫からの贈り物",
+    "pronunciation": "ねむらせひめからのおくりもの",
+    "assetbundleName": "jacket_s_350",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 351,
+    "title": "相生",
+    "pronunciation": "あいおい",
+    "assetbundleName": "jacket_s_351",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 352,
+    "title": "命ばっかり",
+    "pronunciation": "いのちばっかり",
+    "assetbundleName": "jacket_s_352",
+    "musicTag": ["all", "vocaloid", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 353,
+    "title": "キティ",
+    "pronunciation": "きてぃ",
+    "assetbundleName": "jacket_s_353",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 354,
+    "title": "セツナトリップ",
+    "pronunciation": "せつなとりっぷ",
+    "assetbundleName": "jacket_s_354",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 355,
+    "title": "白い雪のプリンセスは",
+    "pronunciation": "しろいゆきのプリンセスは",
+    "assetbundleName": "jacket_s_355",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟢"],
+    "priority": ["🟣≒🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 356,
+    "title": "リアライズ",
+    "pronunciation": "りあらいず",
+    "assetbundleName": "jacket_s_356",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🟣≒🟢＞🔵≒🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 357,
+    "title": "ブループラネット",
+    "pronunciation": "ぶるーぷらねっと",
+    "assetbundleName": "jacket_s_357",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 358,
+    "title": "心做し",
+    "pronunciation": "こころなし",
+    "assetbundleName": "jacket_s_358",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 359,
+    "title": "名も無き革命",
+    "pronunciation": "なもなきかくめい",
+    "assetbundleName": "jacket_s_359",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 360,
+    "title": "太陽系デスコ",
+    "pronunciation": "たいようけいですこ",
+    "assetbundleName": "jacket_s_360",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 361,
+    "title": "きゅうくらりん",
+    "pronunciation": "きゅうくらりん",
+    "assetbundleName": "jacket_s_361",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🔴＞🟣＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 362,
+    "title": "Wonder Style",
+    "pronunciation": "わんだーすたいる",
+    "assetbundleName": "jacket_s_362",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 363,
+    "title": "UNDERWATER",
+    "pronunciation": "あんだーうぉーたー",
+    "assetbundleName": "jacket_s_363",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟡≒🔵≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 364,
+    "title": "エターナルアリア",
+    "pronunciation": "えたーなるありあ",
+    "assetbundleName": "jacket_s_364",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 365,
+    "title": "恋は戦争",
+    "pronunciation": "こいはせんそう",
+    "assetbundleName": "jacket_s_365",
+    "musicTag": ["all", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 366,
+    "title": "NEO",
+    "pronunciation": "ねお",
+    "assetbundleName": "jacket_s_366",
+    "musicTag": [
+      "all",
+      "light_music_club",
+      "idol",
+      "street",
+      "theme_park",
+      "school_refusal",
+      "other"
+    ],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 367,
+    "title": "すきなことだけでいいです",
+    "pronunciation": "すきなことだけでいいです",
+    "assetbundleName": "jacket_s_367",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 368,
+    "title": "アイムマイン",
+    "pronunciation": "あいむまいん",
+    "assetbundleName": "jacket_s_368",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 369,
+    "title": "メランコリック",
+    "pronunciation": "めらんこりっく",
+    "assetbundleName": "jacket_s_369",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔵＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 370,
+    "title": "人生",
+    "pronunciation": "じんせい",
+    "assetbundleName": "jacket_s_370",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 372,
+    "title": "天樂",
+    "pronunciation": "てんがく",
+    "assetbundleName": "jacket_s_372",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 373,
+    "title": "下剋上",
+    "pronunciation": "げこくじょう",
+    "assetbundleName": "jacket_s_373",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": []
+  },
+  {
+    "id": 374,
+    "title": "チームメイト",
+    "pronunciation": "ちーむめいと",
+    "assetbundleName": "jacket_s_374",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 375,
+    "title": "星を繋ぐ",
+    "pronunciation": "ほしをつなぐ",
+    "assetbundleName": "jacket_s_375",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["APD＞🔴≒🟣＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 376,
+    "title": "我儘姫",
+    "pronunciation": "わがままひめ",
+    "assetbundleName": "jacket_s_376",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 377,
+    "title": "悪役にキスシーンを",
+    "pronunciation": "あくやくにきすしーんを",
+    "assetbundleName": "jacket_s_377",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≧🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 378,
+    "title": "スロウダウナー",
+    "pronunciation": "すろうだうなー",
+    "assetbundleName": "jacket_s_378",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🔴≒🟣＞🔵＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 379,
+    "title": "ずんだパーリナイ",
+    "pronunciation": "ずんだぱーりない",
+    "assetbundleName": "jacket_s_379",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡≒🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 380,
+    "title": "スターダストメドレー",
+    "pronunciation": "すたーだすとめどれー",
+    "assetbundleName": "jacket_s_380",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟡＞🟣≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 381,
+    "title": "新人類",
+    "pronunciation": "しんじんるい",
+    "assetbundleName": "jacket_s_381",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 382,
+    "title": "心拍ペアリング",
+    "pronunciation": "しんぱくぺありんぐ",
+    "assetbundleName": "jacket_s_382",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔵≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 383,
+    "title": "purpose",
+    "pronunciation": "ぱーぱす",
+    "assetbundleName": "jacket_s_383",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 384,
+    "title": "トワイライトライト",
+    "pronunciation": "とわいらいとらいと",
+    "assetbundleName": "jacket_s_384",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🟡＞🔴≒🟢"],
+    "encore": ["🟡"]
+  },
+  {
+    "id": 385,
+    "title": "神っぽいな",
+    "pronunciation": "かみっぽいな",
+    "assetbundleName": "jacket_s_385",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 386,
+    "title": "キラピピ★キラピカ",
+    "pronunciation": "きらぴぴきらぴか",
+    "assetbundleName": "jacket_s_386",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟡＞🔴＞🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 388,
+    "title": "初音ミクの激唱",
+    "pronunciation": "はつねみくのげきしょう",
+    "assetbundleName": "jacket_s_388",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 390,
+    "title": "Dear",
+    "pronunciation": "でぃあー",
+    "assetbundleName": "jacket_s_390",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 391,
+    "title": "キュートなカノジョ",
+    "pronunciation": "きゅーとなかのじょ",
+    "assetbundleName": "jacket_s_391",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 392,
+    "title": "春嵐",
+    "pronunciation": "しゅんらん",
+    "assetbundleName": "jacket_s_392",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≧🔴＞🟡"],
+    "encore": []
+  },
+  {
+    "id": 393,
+    "title": "Un-Lock",
+    "pronunciation": "あんろっく",
+    "assetbundleName": "jacket_s_393",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 394,
+    "title": "ボトルケーキ",
+    "pronunciation": "ぼとるけーき",
+    "assetbundleName": "jacket_s_394",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 395,
+    "title": "サマータイムレコード",
+    "pronunciation": "さまーたいむれこーど",
+    "assetbundleName": "jacket_s_395",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 396,
+    "title": "東京テディベア",
+    "pronunciation": "とうきょうてでぃべあ",
+    "assetbundleName": "jacket_s_396",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞APD＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 397,
+    "title": "フィラメントフィーバー",
+    "pronunciation": "ふぃらめんとふぃーばー",
+    "assetbundleName": "jacket_s_397",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 398,
+    "title": "Beyond the way",
+    "pronunciation": "びよんどざうぇい",
+    "assetbundleName": "jacket_s_398",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 399,
+    "title": "Disco No.39",
+    "pronunciation": "でぃすこなんばーさーてぃーないん",
+    "assetbundleName": "jacket_s_399",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 400,
+    "title": "我らステインバスターズ！",
+    "pronunciation": "われらすていんばすたーず！",
+    "assetbundleName": "jacket_s_400",
+    "musicTag": ["all", "idol", "other"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 401,
+    "title": "まにまに",
+    "pronunciation": "まにまに",
+    "assetbundleName": "jacket_s_401",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟡≒🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 402,
+    "title": "エンヴィーベイビー",
+    "pronunciation": "えんヴぃーべいびー",
+    "assetbundleName": "jacket_s_402",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 403,
+    "title": "番凩",
+    "pronunciation": "つがいこがらし",
+    "assetbundleName": "jacket_s_403",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 404,
+    "title": "blender",
+    "pronunciation": "ぶれんだー",
+    "assetbundleName": "jacket_s_404",
+    "musicTag": ["all", "street"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔵＞🟢≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 405,
+    "title": "MOTTO!!!",
+    "pronunciation": "もっと",
+    "assetbundleName": "jacket_s_405",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟡＞🟣＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 406,
+    "title": "ARQETYPE",
+    "pronunciation": "あーきたいぷ",
+    "assetbundleName": "jacket_s_406",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 407,
+    "title": "初めての恋が終わる時",
+    "pronunciation": "はじめてのこいがおわるとき",
+    "assetbundleName": "jacket_s_407",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 408,
+    "title": "CIRCUS PANIC!!!",
+    "pronunciation": "さーかすぱにっく",
+    "assetbundleName": "jacket_s_408",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 409,
+    "title": "25時の情熱",
+    "pronunciation": "にじゅうごじのじょうねつ",
+    "assetbundleName": "jacket_s_409",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🔴＞🔵≒🟣≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 410,
+    "title": "マーシャル・マキシマイザー",
+    "pronunciation": "まーしゃるまきしまいざー",
+    "assetbundleName": "jacket_s_410",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 411,
+    "title": "世界を照らすテトラッド",
+    "pronunciation": "せかいをてらすてとらっど",
+    "assetbundleName": "jacket_s_411",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 412,
+    "title": "デビルじゃないもん",
+    "pronunciation": "でびるじゃないもん",
+    "assetbundleName": "jacket_s_412",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 413,
+    "title": "さよならプリンセス",
+    "pronunciation": "さよならぷりんせす",
+    "assetbundleName": "jacket_s_413",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🔵＞🟡＞🟣≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 414,
+    "title": "HERO",
+    "pronunciation": "ひーろー",
+    "assetbundleName": "jacket_s_414",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 415,
+    "title": "ラッキー☆オーブ",
+    "pronunciation": "らっきーおーぶ",
+    "assetbundleName": "jacket_s_415",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 416,
+    "title": "limbo",
+    "pronunciation": "りんぼ",
+    "assetbundleName": "jacket_s_416",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 417,
+    "title": "くうになる",
+    "pronunciation": "くうになる",
+    "assetbundleName": "jacket_s_417",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟡≒🟣＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 418,
+    "title": "金木犀",
+    "pronunciation": "きんもくせい",
+    "assetbundleName": "jacket_s_418",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 421,
+    "title": "CR詠ZY",
+    "pronunciation": "くれいじー",
+    "assetbundleName": "jacket_s_421",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 422,
+    "title": "JUMPIN’ OVER !",
+    "pronunciation": "じゃんぴんおーばー",
+    "assetbundleName": "jacket_s_422",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🔴＞🟣＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 423,
+    "title": "レグルス",
+    "pronunciation": "れぐるす",
+    "assetbundleName": "jacket_s_423",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["APD＞🟣＞🔵＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 424,
+    "title": "インテグラル",
+    "pronunciation": "いんてぐらる",
+    "assetbundleName": "jacket_s_424",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 425,
+    "title": "Cool Me Down",
+    "pronunciation": "くーるみーだうん",
+    "assetbundleName": "jacket_s_425",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🔴＞🟣＞🟢"],
+    "encore": ["🟢"]
+  },
+  {
+    "id": 426,
+    "title": "On&On",
+    "pronunciation": "おんあんどおん",
+    "assetbundleName": "jacket_s_426",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 427,
+    "title": "幽光、1/fのゆらめき",
+    "pronunciation": "ゆうこうえふぶんのいちのゆらめき",
+    "assetbundleName": "jacket_s_427",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🔴≒🟣＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 428,
+    "title": "ときめきジェットコースター",
+    "pronunciation": "ときめきじぇっとこーすたー",
+    "assetbundleName": "jacket_s_428",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵≒🟢＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 429,
+    "title": "はぐ",
+    "pronunciation": "はぐ",
+    "assetbundleName": "jacket_s_429",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 430,
+    "title": "『んっあっあっ。』",
+    "pronunciation": "んっあっあっ",
+    "assetbundleName": "jacket_s_430",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": []
+  },
+  {
+    "id": 431,
+    "title": "flos",
+    "pronunciation": "ふろーす",
+    "assetbundleName": "jacket_s_431",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟡≒🔴＞＞🔵≒🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 432,
+    "title": "強風オールバック",
+    "pronunciation": "きょうふうおーるばっく",
+    "assetbundleName": "jacket_s_432",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 433,
+    "title": "ヒアソビ",
+    "pronunciation": "ひあそび",
+    "assetbundleName": "jacket_s_433",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 434,
+    "title": "1000年生きてる",
+    "pronunciation": "せんねんいきてる",
+    "assetbundleName": "jacket_s_434",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡＞🟢"],
+    "encore": ["🟡"]
+  },
+  {
+    "id": 435,
+    "title": "リレイアウター",
+    "pronunciation": "りれいあうたー",
+    "assetbundleName": "jacket_s_435",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🔴＞🟣≒🟢＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 436,
+    "title": "古書屋敷殺人事件",
+    "pronunciation": "こしょやしきさつじんじけん",
+    "assetbundleName": "jacket_s_436",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 437,
+    "title": "え？あぁ、そう。",
+    "pronunciation": "えあぁそう",
+    "assetbundleName": "jacket_s_437",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 438,
+    "title": "ハイドアンド・シーク",
+    "pronunciation": "はいどあんどしーく",
+    "assetbundleName": "jacket_s_438",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 439,
+    "title": "一千光年",
+    "pronunciation": "いっせんこうねん",
+    "assetbundleName": "jacket_s_439",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣≒APD＞🔴＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 440,
+    "title": "ショウタイム×オーディエンス",
+    "pronunciation": "しょうたいむおーでぃえんす",
+    "assetbundleName": "jacket_s_440",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 441,
+    "title": "酔いどれ知らず",
+    "pronunciation": "よいどれしらず",
+    "assetbundleName": "jacket_s_441",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 442,
+    "title": "すれすれ",
+    "pronunciation": "すれすれ",
+    "assetbundleName": "jacket_s_442",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴≒🟢＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 443,
+    "title": "林檎売りの泡沫少女",
+    "pronunciation": "りんごうりのうたかたしょうじょ",
+    "assetbundleName": "jacket_s_443",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞＞🟡＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 444,
+    "title": "心泥夢(syndrome)",
+    "pronunciation": "しんどろーむ",
+    "assetbundleName": "jacket_s_444",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 446,
+    "title": "オーバーコード",
+    "pronunciation": "おーばーこーど",
+    "assetbundleName": "jacket_s_446",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 447,
+    "title": "folern",
+    "pronunciation": "ふぉれん",
+    "assetbundleName": "jacket_s_447",
+    "musicTag": ["all", "other"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 448,
+    "title": "Sage",
+    "pronunciation": "さげ",
+    "assetbundleName": "jacket_s_448",
+    "musicTag": ["all", "other"],
+    "compromise": ["🔵"],
+    "priority": ["🔴＞🟣≒APD≒🔵"],
+    "encore": ["🔵"]
+  },
+  {
+    "id": 449,
+    "title": "MarbleBlue.",
+    "pronunciation": "まーぶるぶるー",
+    "assetbundleName": "jacket_s_449",
+    "musicTag": ["all", "other"],
+    "compromise": ["🟢"],
+    "priority": ["🔴＞🟣≒APD＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 450,
+    "title": "オペラ！スペースオペラ！",
+    "pronunciation": "おぺらすぺーすおぺら",
+    "assetbundleName": "jacket_s_450",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["APD＞🟣＞🟢＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 451,
+    "title": "熱異常",
+    "pronunciation": "ねついじょう",
+    "assetbundleName": "jacket_s_451",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 452,
+    "title": "サイバーパンクデッドボーイ",
+    "pronunciation": "さいばーぱんくでっどぼーい",
+    "assetbundleName": "jacket_s_452",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 454,
+    "title": "えれくとりっく・えんじぇぅ",
+    "pronunciation": "えれくとりっく・えんじぇぅ",
+    "assetbundleName": "jacket_s_454",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔵≒🟢＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 455,
+    "title": "ド屑",
+    "pronunciation": "どくず",
+    "assetbundleName": "jacket_s_455",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 456,
+    "title": "幾望の月",
+    "pronunciation": "きぼうのつき",
+    "assetbundleName": "jacket_s_456",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 457,
+    "title": "Supernova",
+    "pronunciation": "すーぱーのゔぁ",
+    "assetbundleName": "jacket_s_457",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟡≒🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 458,
+    "title": "抜錨",
+    "pronunciation": "ばつびょう",
+    "assetbundleName": "jacket_s_458",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 460,
+    "title": "LEADER",
+    "pronunciation": "りーだー",
+    "assetbundleName": "jacket_s_460",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🔴＞🟣＞🟢＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 461,
+    "title": "おどロボ",
+    "pronunciation": "おどろぼ",
+    "assetbundleName": "jacket_s_461",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🔴≒🟣＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 462,
+    "title": "レッドランドマーカー",
+    "pronunciation": "れっどらんどまーかー",
+    "assetbundleName": "jacket_s_462",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 463,
+    "title": "ハッピーチートデー",
+    "pronunciation": "はっぴーちーとでー",
+    "assetbundleName": "jacket_s_463",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🔴＞🟣≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 465,
+    "title": "嬢王",
+    "pronunciation": "じょうおう",
+    "assetbundleName": "jacket_s_465",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣≒🔴＞APD≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 466,
+    "title": "ガーネットの涙",
+    "pronunciation": "がーねっとのなみだ",
+    "assetbundleName": "jacket_s_466",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 467,
+    "title": "あいのうた",
+    "pronunciation": "あいのうた",
+    "assetbundleName": "jacket_s_467",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 468,
+    "title": "十六歳の心臓",
+    "pronunciation": "じゅうろくさいのしんぞう",
+    "assetbundleName": "jacket_s_468",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 469,
+    "title": "ラグトレイン",
+    "pronunciation": "らぐとれいん",
+    "assetbundleName": "jacket_s_469",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞APD＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 470,
+    "title": "ハジメテノオト",
+    "pronunciation": "はじめてのおと",
+    "assetbundleName": "jacket_s_470",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔴≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 471,
+    "title": "ULTRA C",
+    "pronunciation": "うるとらしー",
+    "assetbundleName": "jacket_s_471",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 472,
+    "title": "成敗いたAAAAAす！",
+    "pronunciation": "せいばいいたあああああす",
+    "assetbundleName": "jacket_s_472",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵＞🟢≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 473,
+    "title": "マインドブランド",
+    "pronunciation": "まいんどぶらんど",
+    "assetbundleName": "jacket_s_473",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟡＞🟣＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 474,
+    "title": "キラー",
+    "pronunciation": "きらー",
+    "assetbundleName": "jacket_s_474",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞APD≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 475,
+    "title": "ちがう!!!",
+    "pronunciation": "ちがう",
+    "assetbundleName": "jacket_s_475",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 476,
+    "title": "Shadow Shadow",
+    "pronunciation": "しゃどうしゃどう",
+    "assetbundleName": "jacket_s_476",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 477,
+    "title": "モザイクロール (Reloaded)",
+    "pronunciation": "もざいくろーるりろーでっど",
+    "assetbundleName": "jacket_s_477",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔴≒🔵＞🟢"],
+    "encore": []
+  },
+  {
+    "id": 478,
+    "title": "フューエル",
+    "pronunciation": "ふゅーえる",
+    "assetbundleName": "jacket_s_478",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🟢≒🔴＞🔵＞🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 480,
+    "title": "おちゃめ機能",
+    "pronunciation": "おちゃめきのう",
+    "assetbundleName": "jacket_s_480",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞＞🔴＞🟡≒🟢＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 481,
+    "title": "明鏡止水",
+    "pronunciation": "めいきょうしすい",
+    "assetbundleName": "jacket_s_481",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🟢＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 482,
+    "title": "だめにんげんだ!",
+    "pronunciation": "だめにんげんだ!",
+    "assetbundleName": "jacket_s_482",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 483,
+    "title": "アコトバ",
+    "pronunciation": "あことば",
+    "assetbundleName": "jacket_s_483",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 484,
+    "title": "Henceforth",
+    "pronunciation": "へんすふぉーす",
+    "assetbundleName": "jacket_s_484",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 485,
+    "title": "だんだん早くなる",
+    "pronunciation": "だんだんはやくなる",
+    "assetbundleName": "jacket_s_485",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 486,
+    "title": "おぎゃりないざー",
+    "pronunciation": "おぎゃりないざー",
+    "assetbundleName": "jacket_s_486",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD≒🟣≒🔴＞🟡＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 487,
+    "title": "ダイジョブですか？",
+    "pronunciation": "だいじょぶですか？",
+    "assetbundleName": "jacket_s_487",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🔴＞🟣≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 488,
+    "title": "メモリア",
+    "pronunciation": "めもりあ",
+    "assetbundleName": "jacket_s_488",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 489,
+    "title": "熱風",
+    "pronunciation": "ねっぷう",
+    "assetbundleName": "jacket_s_489",
+    "musicTag": [
+      "all",
+      "vocaloid",
+      "light_music_club",
+      "idol",
+      "street",
+      "theme_park",
+      "school_refusal",
+      "other"
+    ],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣≒🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 490,
+    "title": "ルーマー",
+    "pronunciation": "るーまー",
+    "assetbundleName": "jacket_s_490",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 491,
+    "title": "キャットラビング",
+    "pronunciation": "きゃっとらびんぐ",
+    "assetbundleName": "jacket_s_491",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞＞🟢≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 492,
+    "title": "私は雨",
+    "pronunciation": "わたしはあめ",
+    "assetbundleName": "jacket_s_492",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔵＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 493,
+    "title": "きょうもハレバレ",
+    "pronunciation": "きょうもはればれ",
+    "assetbundleName": "jacket_s_493",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟡＞🔴＞🔵＞🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 494,
+    "title": "ポッピンキャンディ☆フィーバー！",
+    "pronunciation": "ぽっぴんきゃんでぃ☆ふぃーばー！",
+    "assetbundleName": "jacket_s_494",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 495,
+    "title": "スーパーヒーロー",
+    "pronunciation": "すーぱーひーろー",
+    "assetbundleName": "jacket_s_495",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 496,
+    "title": "シルバーコレクター",
+    "pronunciation": "しるばーこれくたー",
+    "assetbundleName": "jacket_s_496",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🔴≒🟣＞＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 497,
+    "title": "烈火",
+    "pronunciation": "れっか",
+    "assetbundleName": "jacket_s_497",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 498,
+    "title": "はしる! とおく! とどく!",
+    "pronunciation": "はしるとおくとどく",
+    "assetbundleName": "jacket_s_498",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 499,
+    "title": "混沌ブギ",
+    "pronunciation": "こんとんぶぎ",
+    "assetbundleName": "jacket_s_499",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞APD＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 500,
+    "title": "余花にみとれて",
+    "pronunciation": "よかにみとれて",
+    "assetbundleName": "jacket_s_500",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 501,
+    "title": "Bad Apple!! feat.SEKAI",
+    "pronunciation": "ばっどあっぷるふぃーちゃりんぐせかい",
+    "assetbundleName": "jacket_s_501",
+    "musicTag": ["all", "school_refusal", "other"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞＞🟣＞🔴≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 502,
+    "title": "Help me, ERINNNNNN!!",
+    "pronunciation": "へるぷみーえーりん",
+    "assetbundleName": "jacket_s_502",
+    "musicTag": ["all", "vocaloid", "other"],
+    "compromise": ["🔵"],
+    "priority": ["🔵≒🟣＞APD＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 503,
+    "title": "超最終鬼畜妹フランドール・Ｓ",
+    "pronunciation": "ちょうさいしゅうきちくいもうとふらんどーるえす",
+    "assetbundleName": "jacket_s_503",
+    "musicTag": ["all", "other"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴≒APD＞🟡＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 504,
+    "title": "I know 愛脳.",
+    "pronunciation": "あいのーあいのう",
+    "assetbundleName": "jacket_s_504",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 505,
+    "title": "コールボーイ",
+    "pronunciation": "こーるぼーい",
+    "assetbundleName": "jacket_s_505",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟢"],
+    "priority": ["🔴＞🟣＞🟢＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 506,
+    "title": "QUEEN",
+    "pronunciation": "くいーん",
+    "assetbundleName": "jacket_s_506",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 507,
+    "title": "エンパープル",
+    "pronunciation": "えんぱーぷる",
+    "assetbundleName": "jacket_s_507",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞APD＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 508,
+    "title": "ヘイヴン",
+    "pronunciation": "へいヴん",
+    "assetbundleName": "jacket_s_508",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 509,
+    "title": "ライアーダンサー",
+    "pronunciation": "らいあーだんさー",
+    "assetbundleName": "jacket_s_509",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 511,
+    "title": "如月アテンション",
+    "pronunciation": "きさらぎあてんしょん",
+    "assetbundleName": "jacket_s_511",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 512,
+    "title": "合成するミライ",
+    "pronunciation": "ごうせいするみらい",
+    "assetbundleName": "jacket_s_512",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 513,
+    "title": "CH4NGE",
+    "pronunciation": "ちぇんじ",
+    "assetbundleName": "jacket_s_513",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 515,
+    "title": "イガク",
+    "pronunciation": "いがく",
+    "assetbundleName": "jacket_s_515",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🔴＞🟣＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 516,
+    "title": "あちこちデートさん",
+    "pronunciation": "あちこちでーとさん",
+    "assetbundleName": "jacket_s_516",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 517,
+    "title": "メリーゴーラウンド",
+    "pronunciation": "めりーごーらうんど",
+    "assetbundleName": "jacket_s_517",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 518,
+    "title": "みかぼし",
+    "pronunciation": "みかぼし",
+    "assetbundleName": "jacket_s_518",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 519,
+    "title": "夏夜ノ唄",
+    "pronunciation": "なつよのうた",
+    "assetbundleName": "jacket_s_519",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 520,
+    "title": "透明エレジー",
+    "pronunciation": "とうめいえれじー",
+    "assetbundleName": "jacket_s_520",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 521,
+    "title": "オーバーライド",
+    "pronunciation": "おーばーらいど",
+    "assetbundleName": "jacket_s_521",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 522,
+    "title": "WAVE",
+    "pronunciation": "うぇーぶ",
+    "assetbundleName": "jacket_s_522",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 523,
+    "title": "きみとぼくのレゾナンス",
+    "pronunciation": "きみとぼくのれぞなんす",
+    "assetbundleName": "jacket_s_523",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 524,
+    "title": "それでも僕らは歌うことをやめない",
+    "pronunciation": "それでもぼくらはうたうことをやめない",
+    "assetbundleName": "jacket_s_524",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🔴≒🟣＞🔵＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 525,
+    "title": "アンテナ39",
+    "pronunciation": "あんてなさんきゅー",
+    "assetbundleName": "jacket_s_525",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 526,
+    "title": "彗星ノ銀河",
+    "pronunciation": "すいせいのくに",
+    "assetbundleName": "jacket_s_526",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟡≒🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 527,
+    "title": "Unpoison",
+    "pronunciation": "あんぽいずん",
+    "assetbundleName": "jacket_s_527",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔴＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 529,
+    "title": "カルチャ",
+    "pronunciation": "かるちゃ",
+    "assetbundleName": "jacket_s_529",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 530,
+    "title": "キャットフード",
+    "pronunciation": "きゃっとふーど",
+    "assetbundleName": "jacket_s_530",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 531,
+    "title": "メズマライザー",
+    "pronunciation": "めずまらいざー",
+    "assetbundleName": "jacket_s_531",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟡≒🟣＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 532,
+    "title": "レイヤーノート",
+    "pronunciation": "れいやーのーと",
+    "assetbundleName": "jacket_s_532",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 533,
+    "title": "転生林檎",
+    "pronunciation": "てんせいりんご",
+    "assetbundleName": "jacket_s_533",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 534,
+    "title": "ワールド・ランプシェード [reunion]",
+    "pronunciation": "わーるど らんぷしぇーど りゆにおん",
+    "assetbundleName": "jacket_s_534",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 536,
+    "title": "Fire◎Flower (Rerec)",
+    "pronunciation": "ふぁいあふらわー",
+    "assetbundleName": "jacket_s_536",
+    "musicTag": ["all", "other"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵＞🟢＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 537,
+    "title": "花に風",
+    "pronunciation": "はなにかぜ",
+    "assetbundleName": "jacket_s_537",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟡≒🟣＞🔴＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 538,
+    "title": "オールセーブチャレンジ",
+    "pronunciation": "おーるせーぶちゃれんじ",
+    "assetbundleName": "jacket_s_538",
+    "musicTag": ["all", "theme_park"],
+    "compromise": [],
+    "priority": [],
+    "encore": []
+  },
+  {
+    "id": 540,
+    "title": "虚無さん",
+    "pronunciation": "にひるさん",
+    "assetbundleName": "jacket_s_540",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": [],
+    "priority": [],
+    "encore": []
+  },
+  {
+    "id": 541,
+    "title": "メインキャラクター",
+    "pronunciation": "めいんきゃらくたー",
+    "assetbundleName": "jacket_s_541",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🟢＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 542,
+    "title": "Blackjack",
+    "pronunciation": "ぶらっくじゃっく",
+    "assetbundleName": "jacket_s_542",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 543,
+    "title": "生命性シンドロウム",
+    "pronunciation": "せいめいせいしんどろうむ",
+    "assetbundleName": "jacket_s_543",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣≒🔴＞APD＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 544,
+    "title": "妄想アスパルテーム",
+    "pronunciation": "もうそうあすぱるてーむ",
+    "assetbundleName": "jacket_s_544",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡＞＞🔵≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 545,
+    "title": "脳天",
+    "pronunciation": "のうてん",
+    "assetbundleName": "jacket_s_545",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟢≒🟣≒🔵＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 546,
+    "title": "その音が鳴るなら",
+    "pronunciation": "そのおとがなるなら",
+    "assetbundleName": "jacket_s_546",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 547,
+    "title": "終焉逃避行",
+    "pronunciation": "しゅうえんとうひこう",
+    "assetbundleName": "jacket_s_547",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🟡"],
+    "priority": ["🔴≒🟡＞🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 548,
+    "title": "ぼくのかみさま",
+    "pronunciation": "ぼくのかみさま",
+    "assetbundleName": "jacket_s_548",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡≒APD"],
+    "encore": [""]
+  },
+  {
+    "id": 549,
+    "title": "化けの花",
+    "pronunciation": "ばけのはな",
+    "assetbundleName": "jacket_s_549",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 553,
+    "title": "パリィ",
+    "pronunciation": "ぱりぃ",
+    "assetbundleName": "jacket_s_553",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 554,
+    "title": "snooze",
+    "pronunciation": "すぬーず",
+    "assetbundleName": "jacket_s_554",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞APD＞🔵≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 555,
+    "title": "フュージョン",
+    "pronunciation": "ふゅーじょん",
+    "assetbundleName": "jacket_s_555",
+    "musicTag": ["all", "other"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣≒APD＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 556,
+    "title": "サイハテ",
+    "pronunciation": "さいはて",
+    "assetbundleName": "jacket_s_556",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡≒🟢＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 557,
+    "title": "花溺れ",
+    "pronunciation": "はなおぼれ",
+    "assetbundleName": "jacket_s_557",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 558,
+    "title": "のだ",
+    "pronunciation": "のだ",
+    "assetbundleName": "jacket_s_558",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["APD＞🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 561,
+    "title": "プロトディスコ",
+    "pronunciation": "ぷろとでぃすこ",
+    "assetbundleName": "jacket_s_561",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞APD＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 562,
+    "title": "アンヘル",
+    "pronunciation": "あんへる",
+    "assetbundleName": "jacket_s_562",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": [],
+    "priority": [],
+    "encore": []
+  },
+  {
+    "id": 564,
+    "title": "そこに在る、光。",
+    "pronunciation": "そこにあるひかり",
+    "assetbundleName": "jacket_s_564",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 565,
+    "title": "夏に透明",
+    "pronunciation": "なつにとうめい",
+    "assetbundleName": "jacket_s_565",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣≒🟡＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 566,
+    "title": "パンダヒーロー",
+    "pronunciation": "ぱんだひーろー",
+    "assetbundleName": "jacket_s_566",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 567,
+    "title": "結ンデ開イテ羅刹ト骸",
+    "pronunciation": "むすんでひらいてらせつとむくろ",
+    "assetbundleName": "jacket_s_567",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟡＞🔵＞🔴＞🟣"],
+    "encore": [""]
+  },
+  {
+    "id": 569,
+    "title": "シークレット・シーカー",
+    "pronunciation": "しーくれっと・しーかー",
+    "assetbundleName": "jacket_s_569",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 573,
+    "title": "はじまりの未来",
+    "pronunciation": "はじまりのみらい",
+    "assetbundleName": "jacket_s_573",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 574,
+    "title": "SToRY",
+    "pronunciation": "すとーりー",
+    "assetbundleName": "jacket_s_574",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔵＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 575,
+    "title": "FUN!!",
+    "pronunciation": "ふぁん",
+    "assetbundleName": "jacket_s_575",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🔴≒🟣＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 576,
+    "title": "ファイアダンス",
+    "pronunciation": "ふぁいあだんす",
+    "assetbundleName": "jacket_s_576",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 577,
+    "title": "スマイル*シンフォニー",
+    "pronunciation": "すまいるしんふぉにー",
+    "assetbundleName": "jacket_s_577",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 578,
+    "title": "ハローセカイ",
+    "pronunciation": "はろーせかい",
+    "assetbundleName": "jacket_s_578",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 579,
+    "title": "Worlders",
+    "pronunciation": "わーるだーず",
+    "assetbundleName": "jacket_s_579",
+    "musicTag": [
+      "all",
+      "vocaloid",
+      "light_music_club",
+      "idol",
+      "street",
+      "theme_park",
+      "school_refusal",
+      "other"
+    ],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔴＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 580,
+    "title": "三日月ステップ",
+    "pronunciation": "みかづきすてっぷ",
+    "assetbundleName": "jacket_s_580",
+    "musicTag": ["all", "street"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣＞🟡＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 581,
+    "title": "厨病激発ボーイ",
+    "pronunciation": "ちゅうびょうげきはつぼーい",
+    "assetbundleName": "jacket_s_581",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟢"],
+    "priority": ["🔴≒🟣＞＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 582,
+    "title": "アンチユー",
+    "pronunciation": "あんちゆー",
+    "assetbundleName": "jacket_s_582",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 587,
+    "title": "ルルブ",
+    "pronunciation": "るるぶ",
+    "assetbundleName": "jacket_s_587",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🟡＞🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 588,
+    "title": "プラネットヒーロー",
+    "pronunciation": "ぷらねっとひーろー",
+    "assetbundleName": "jacket_s_588",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞＞🔴＞🟡＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 589,
+    "title": "バレリーコ",
+    "pronunciation": "ばれりーこ",
+    "assetbundleName": "jacket_s_589",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 590,
+    "title": "マンハッタン",
+    "pronunciation": "まんはったん",
+    "assetbundleName": "jacket_s_590",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵＞🟡≒🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 591,
+    "title": "吉原ラメント 再来盤",
+    "pronunciation": "よしわららめんと さいらいばん",
+    "assetbundleName": "jacket_s_591",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🔴＞🟣≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 592,
+    "title": "クイーンオブハート",
+    "pronunciation": "くいーんおぶはーと",
+    "assetbundleName": "jacket_s_592",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🔴＞🟡＞"],
+    "encore": [""]
+  },
+  {
+    "id": 593,
+    "title": "クリスタルスノウ",
+    "pronunciation": "くりすたるすのう",
+    "assetbundleName": "jacket_s_593",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞＞🔵≒🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 594,
+    "title": "Call!!",
+    "pronunciation": "こーる",
+    "assetbundleName": "jacket_s_594",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴＞🔵＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 596,
+    "title": "D/N/A",
+    "pronunciation": "でぃー・えぬ・えー",
+    "assetbundleName": "jacket_s_596",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞🔴≒🔵＞＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 603,
+    "title": "ドレミファロンド",
+    "pronunciation": "どれみふぁろんど",
+    "assetbundleName": "jacket_s_603",
+    "musicTag": ["all", "theme_park"],
+    "compromise": ["🟡"],
+    "priority": ["🟣＞🟡＞🔴＞＞🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 604,
+    "title": "Packaged",
+    "pronunciation": "ぱっけーじど",
+    "assetbundleName": "jacket_s_604",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🔴≒🟣＞🔵＞🟡"],
+    "encore": [""]
+  },
+  {
+    "id": 605,
+    "title": "Sympathy",
+    "pronunciation": "しんぱしー",
+    "assetbundleName": "jacket_s_605",
+    "musicTag": ["all", "light_music_club"],
+    "compromise": [""],
+    "priority": [""],
+    "encore": [""]
+  },
+  {
+    "id": 606,
+    "title": "スーサイドパレヱド",
+    "pronunciation": "すーさいどぱれえど",
+    "assetbundleName": "jacket_s_606",
+    "musicTag": ["all", "school_refusal"],
+    "compromise": ["🟢"],
+    "priority": ["🟣＞🔴＞🟢"],
+    "encore": [""]
+  },
+  {
+    "id": 607,
+    "title": "回る空うさぎ",
+    "pronunciation": "まわるそらうさぎ",
+    "assetbundleName": "jacket_s_607",
+    "musicTag": ["all", "idol"],
+    "compromise": ["🔵"],
+    "priority": ["🟣＞＞🔵≒🔴"],
+    "encore": [""]
+  },
+  {
+    "id": 608,
+    "title": "星宙メランコリア",
+    "pronunciation": "ほしぞらめらんこりあ",
+    "assetbundleName": "jacket_s_608",
+    "musicTag": ["all", "vocaloid"],
+    "compromise": ["🔵"],
+    "priority": ["🟣≒🔴＞🟡≒🔵"],
+    "encore": [""]
+  },
+  {
+    "id": 622,
+    "title": "超ナイト・オブ・ナイツ",
+    "pronunciation": "ちょうないと・おぶ・ないつ",
+    "assetbundleName": "jacket_s_622",
+    "musicTag": ["all", "other"],
+    "compromise": [],
+    "priority": [],
+    "encore": []
+  },
+  {
+    "id": 623,
+    "title": "とうほう☆ワンダーランド",
+    "pronunciation": "とうほうわんだーらんど",
+    "assetbundleName": "jacket_s_623",
+    "musicTag": ["all", "theme_park", "other"],
+    "compromise": [],
+    "priority": [],
+    "encore": []
+  },
+  {
+    "id": 624,
+    "title": "チルノのパーフェクトさんすう学園",
+    "pronunciation": "ちるののぱーふぇくとさんすうがくえん",
+    "assetbundleName": "jacket_s_624",
+    "musicTag": ["all", "vocaloid", "other"],
+    "compromise": [],
+    "priority": [],
+    "encore": []
+  }
+]
