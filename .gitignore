@@ -21,3 +21,6 @@ yarn-error.log*
 
 .vscode
 
+DEVELOPMENT_GUIDE.md
+getDifficulty.ts
+tsconfig.json
