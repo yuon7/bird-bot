@@ -1,35 +1,14 @@
 import { Secret } from "./secret.ts";
-interface MusicInfo {
-  id: number;
-  title: string;
-  pronunciation: string;
-  assetbundleName: string;
-}
-interface MusicTag {
-  musicId: number;
-  musicTag: string;
-}
-interface EfficiencyRow {
-  title: string;
-  compromise: string;
-  priority: string;
-  encore: string;
-}
-interface MusicDifficulty {
-  id: number;
-  title: string;
-  pronunciation: string;
-  assetbundleName: string;
-  musicTag: string[];
-  compromise: string[];
-  priority: string[];
-  encore: string[];
-}
+import {
+  MusicInfo,
+  MusicTag,
+  EfficiencyRow,
+  MusicDifficulty,
+  GoogleSheetRow,
+} from "./type.ts";
 
-const MUSIC_INFO_URL =
-  "https://sekai-world.github.io/sekai-master-db-diff/musics.json";
-const MUSIC_TAGS_URL =
-  "https://sekai-world.github.io/sekai-master-db-diff/musicTags.json";
+const MUSIC_INFO_URL = Secret.MUSIC_INFO_URL;
+const MUSIC_TAGS_URL = Secret.MUSIC_TAG_URL;
 const SPREADSHEET_ID = Secret.SPREADSHEET_ID;
 const SHEET_NAME = "効率表";
 
@@ -38,7 +17,6 @@ async function fetchJson<T>(url: string): Promise<T> {
   if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`);
   return await res.json();
 }
-
 async function fetchEfficiency(): Promise<EfficiencyRow[]> {
   const sheetParam = encodeURIComponent(SHEET_NAME);
   const url = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&sheet=${sheetParam}&range=B1:F`;
@@ -48,7 +26,7 @@ async function fetchEfficiency(): Promise<EfficiencyRow[]> {
   const m = text.match(/setResponse\(([\s\S]+?)\);/);
   if (!m) throw new Error("Unexpected sheet format");
   const data = JSON.parse(m[1]);
-  const rows: any[] = data.table.rows.slice(1);
+  const rows: GoogleSheetRow[] = data.table.rows.slice(1);
   return rows.map((r) => {
     const c = r.c;
     return {
