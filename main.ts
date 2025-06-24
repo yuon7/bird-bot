@@ -37,17 +37,15 @@ const startSelfPingLoop = () => {
   const DEPLOY_URL = Secret.DEPLOY_URL;
 
   console.log(`Starting self-ping loop for ${DEPLOY_URL}`);
-
-  // 5分ごとにセルフPing
   setInterval(async () => {
     try {
-      const response = await fetch(`${DEPLOY_URL}/health`);
+      const response = await fetch(`${DEPLOY_URL}`);
       const data = await response.json();
       console.log(`Self-ping successful at ${data.timestamp}`);
     } catch (error) {
       console.error("Self-ping failed:", error);
     }
-  }, 4 * 60 * 1000); // 4分ごと
+  }, 4 * 60 * 1000);
 };
 
 const bot = createBot({
@@ -106,7 +104,6 @@ bot.events.guildCreate = async (b, guild) => {
 };
 
 bot.events.interactionCreate = async (b, interaction) => {
-  // Autocompleteリクエストの処理
   if (interaction.type === InteractionTypes.ApplicationCommandAutocomplete) {
     if (interaction.data?.name === "efficiency") {
       await handleEfficiencyInteraction(b, interaction);
@@ -114,7 +111,6 @@ bot.events.interactionCreate = async (b, interaction) => {
     return;
   }
 
-  // 通常のコマンド実行とコンポーネント操作
   if (interaction.data?.name) {
     switch (interaction.data.name) {
       case "calc":
@@ -156,19 +152,10 @@ router.get("/", (ctx) => {
   ctx.response.body = "Bot is running!";
 });
 
-router.get("/health", (ctx) => {
-  ctx.response.body = {
-    status: "ok",
-    timestamp: new Date().toISOString(),
-    uptime: performance.now(),
-  };
-});
-
 const app = new Application();
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-// HTTP サーバーを AbortController で制御
 const PORT = Secret.PORT || 8000;
 const controller = new AbortController();
 
